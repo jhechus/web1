@@ -1,0 +1,154 @@
+.bgnav{
+  background-color: #c7b470
+  ;
+}
+
+.bgnav .Logo img{
+  height: 80px;
+  object-fit: cover;
+}
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Inicio
+
+*/
+
+.bginicio{
+  background-color: #6ba3ba;
+}
+
+.lassa h1{
+  color: #961293;
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+.lassa a{
+  background-color: #c7b470;
+  margin-bottom: 20px;
+}
+
+.lassa button{
+  background-color: #c7b470;
+  margin-bottom: 10px;
+}
+
+.icon-inner{
+  margin-top: 50px;
+}
+
+
+.normas h6{
+  margin-top: -5px;
+}
+
+.normas p{
+  margin-top: -10px;
+}
+
+.normas h5{
+  color: #961293;
+}
+
+.normas h2{
+  color: #c7b470;
+}
+
+.normas .flecha p{
+  margin-top: -6px;
+}
+
+.normas .check p{
+  padding-left: 10px;
+  margin-top: -4px;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Seguridad y Salud
+
+*/
+
+.encabezadosys{
+  padding-left: 550px;
+}
+
+@media (min-width: 750px) and (max-width: 1350px){
+  .encabezadosys{
+    padding-left: 250px ;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 749px){
+  .encabezadosys{
+    padding-left: 40px ;
+  }
+}
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Servicio medico
+
+*/
+
+.carta{
+  max-width: 28rem;
+  float: right;
+  margin-top: 50px;
+}
+
+.imgcovid img{
+  float: right;
+}
+
+.covid p{
+  margin-top: -15px;
+}
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Nosotros 
+
+*/
+
+#valores .allvalors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+} 
+
+/*
+#valores .allvalors{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+#valores .ourvalors .icono {
+  margin-bottom: -25px; /* ajusta la posición vertical del icono */
+  font-size: 1rem; /* ajusta el tamaño del icono */
+}
+
+#valores .ourvalors p {
+  font-size: 2rem; /* ajusta el tamaño del texto */
+  margin-bottom: 0; /* elimina el margen inferior del texto */
+  padding-left: 10px;
+  padding-right: 20px;
+  text-align: center;
+}
