@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCircle } from "react-icons/fa";
+import Footer from '../components/Footer';
 
 function About() {
   return (
@@ -84,7 +85,7 @@ function About() {
                     </div>
                 </div>
             </section>
-      
+      <Footer/>
     </div>
   )
 }

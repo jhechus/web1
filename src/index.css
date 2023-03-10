@@ -98,6 +98,19 @@ header .lassabtn:hover{
   color: #c7b470;
 }
 
+
+@media (min-width: 750px) and (max-width: 1350px){
+  .servicios img{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+  }
+
+  .servicios h3{
+    font-size: 18px;
+  }
+}
+
 /*
 ///////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -304,4 +317,41 @@ Ambiental
 
 #ambiental .bgambiental{
   background-color: #a9d08e;
+}
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Footer
+
+*/
+
+
+
+
+.bgfot{
+  background-color: #dddddd;
+}
+
+.lab h4{
+  color: #8064a2;
+}
+
+.jesus h5{
+  color: #5F5F5F;
+}
+
+.vane{
+  color: #777777
+}
+
+.yuli{
+  color: #8064a2;
+}
+
+.table-row td {
+  border-bottom: 1px solid black;
 }

@@ -8,6 +8,8 @@ import Ambiental from '../images/ambiental.png'
 import Estudios from '../images/estudios.png'
 import Civil from '../images/civil.png'
 
+import Footer from '../components/Footer'
+
 function ProteccionCivil() {
   return (
     <div>
@@ -121,6 +123,8 @@ function ProteccionCivil() {
                 </div>
             </div>
       </section>
+
+      <Footer/>
 
     </div>
   )

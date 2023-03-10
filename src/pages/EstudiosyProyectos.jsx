@@ -7,6 +7,8 @@ import Ambiental from '../images/ambiental.png'
 import Estudios from '../images/estudios.png'
 import Civil from '../images/civil.png'
 
+import Footer from '../components/Footer'
+
 function EstudiosyProyectos() {
   return (
     <div>
@@ -152,6 +154,7 @@ function EstudiosyProyectos() {
             </div>
         </section>
 
+    <Footer/>
 
     </div>
   )

@@ -12,6 +12,9 @@ import Logo from '../images/logoo.png'
 import { FaSeedling } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
 
+import Footer from './Footer'
+import Servicios from './Servicios'
+
 function Inicio2() {
   return (
     <div>
@@ -34,72 +37,7 @@ function Inicio2() {
         </header>
 
 
-        <section>
-            <div className=' container'>
-                <div className=' row'>
-                    <div className=' col-md-12 text-center my-4 ourservice'>
-                        <h2> Nuestros Servicios </h2>
-                    </div>
-                    
-                    <div className='d-md-flex justify-content-center'>
-                        <div className=' col-xl-3 col-md-3 servicios'>
-                            <Link to={'/Muestreos_Analisis'} className=' text-decoration-none col-xl-12 px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Muestreo} alt="Muestreo" />
-                                <h3 className=' text-center '> Muestreos y Analisis </h3>
-                            </Link>
-                        </div>
-
-
-                        <div className=' col-xl-3 col-md-3 servicios'>
-                            <Link to={'/Seguridad_Salud'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Seguridad} alt="Seguridad y Salud" />
-                                <h3 className=' text-center  px-5'> Seguridad y Salud en el trabajo </h3>
-                            </Link>
-                        </div>
-
-                        <div className=' col-xl-3 col-md-3 servicios'>
-                            <Link to={'/Recipientes_a_Presion'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Presion} alt="Presion" />
-                                <h3 className=' text-center  px-5'>Recipientes sujetos a presion </h3>
-                            </Link>
-                        </div>
-
-
-                        <div className=' col-xl-3 col-md-3 servicios'>
-                            <Link to={'/ProteccionCivil'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Civil} alt="Proteccion civil" />
-                                <h3 className=' text-center'> Proteccion civil </h3>
-                            </Link>
-                        </div>
-                    </div>
-
-
-                    <div className='d-md-flex justify-content-center'>
-                        <div className=' col-xl-4 col-md-4 servicios'>
-                            <Link to={'/Ambiental'} className=' text-decoration-none col-xl-12 px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Ambiental} alt="Ambiental" />
-                                <h3 className=' text-center'> Ambiental </h3>
-                            </Link>
-                        </div>
-
-
-                        <div className=' col-xl-4 col-md-4 servicios'>
-                            <Link to={'/proyectosyAmbiental'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Estudios} alt="Estudios y Proyectos" />
-                                <h3 className=' text-center px-2'> Estudios y Proyectos Ambientales </h3>
-                            </Link>
-                        </div>
-
-                        <div className=' col-xl-4 col-md-4 servicios'>
-                            <Link to={'/ServicioMedico'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Proteccion} alt="Presion" />
-                                <h3 className=' text-center px-5'> Servicio medico </h3>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        < Servicios />
 
         <section className="py-5 border-bottom" id="features">
             <div className="container px-5 my-5">
@@ -128,7 +66,7 @@ function Inicio2() {
                             <p> Descargas de agua residuales al sistema de drenaje y alcantarillado del Distrito Federal, provenientes de las fuentes fijas </p>
                         </div>
 
-                        <Link to={'/Muestreos_Analisis'}> <h5><strong> Emisiones a la atmosfera </strong></h5> </Link>
+                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Emisiones a la atmosfera </strong></h5> </Link>
 
                         <h6><strong> NADF-011-AMBT-2018  </strong></h6>
                         <p> Compuestos organicos volatiles emitidos por fuentes fijas de competencia de la Ciudad de Mexico </p>
@@ -148,7 +86,7 @@ function Inicio2() {
                         <h6><strong> US EPA TEST METHOD 10  </strong></h6>
                         <p> Emisiones de monóxido de carbono en fuentes fijas. </p>
 
-                        <Link to={'/Muestreos_Analisis'}> <h5><strong> Ruido Perimetral y Vibraciones </strong></h5> </Link>
+                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Ruido Perimetral y Vibraciones </strong></h5> </Link>
 
                         <div>
                             <h6><strong> NADF-004-AMBT-2004 </strong></h6>
@@ -161,7 +99,7 @@ function Inicio2() {
                             <p> Emisión de ruido de las fuentes fijas. </p>
                         </div>
                         
-                        <Link to={'/Muestreos_Analisis'}> <h5><strong> Analisis de Alimentos </strong></h5> </Link>
+                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Analisis de Alimentos </strong></h5> </Link>
 
                         <div>
                             <ul>
@@ -205,7 +143,7 @@ function Inicio2() {
 
                         <Link className="text-decoration-none" to={'/Seguridad_Salud'}><h2 className="h4 fw-bolder text-center"> Seguridad, Salud & Organización en el trabajo </h2> </Link>
 
-                        <Link to={'/Seguridad_Salud'}> <h5><strong> Normas de Seguridad </strong></h5> </Link>
+                        <Link to={'/Seguridad_Salud'} className=' text-decoration-none'> <h5><strong> Normas de Seguridad </strong></h5> </Link>
 
                         <h6><strong> NOM-001-STPS-2008 </strong></h6>
                         <p> Edificios, Locales, Instalaciones. </p>
@@ -243,7 +181,7 @@ function Inicio2() {
                         <h6><strong> NOM-034-STPS-2015 </strong></h6>
                         <p> Acceso y desarrollo de actividades de trabajadores con discapacidad. </p>
 
-                        <Link to={'/Seguridad_Salud'}> <h5><strong> Normas de Salud </strong></h5> </Link>
+                        <Link to={'/Seguridad_Salud'} className=' text-decoration-none'> <h5><strong> Normas de Salud </strong></h5> </Link>
 
                         <h6><strong> NOM-010-STPS-2014 </strong></h6>
                         <p> Agentes químicos contaminantes. </p>
@@ -269,7 +207,7 @@ function Inicio2() {
                         <h6><strong> NOM-036-I-STPS-2018 </strong></h6>
                         <p> Factores de riesgo ergonómico. </p>
 
-                        <Link to={'/Seguridad_Salud'}> <h5><strong> Normas de Organización </strong></h5> </Link>
+                        <Link to={'/Seguridad_Salud'} className=' text-decoration-none'> <h5><strong> Normas de Organización </strong></h5> </Link>
 
                         <h6><strong> NOM-017-STPS-2008 </strong></h6>
                         <p> Equipo de protección personal. </p>
@@ -310,14 +248,17 @@ function Inicio2() {
                         </ul>
 
 
-                        <a className="text-decoration-none" href="#!">
-                            Call to action
-                            <i className="bi bi-arrow-right"></i>
-                        </a>
+                        <Link className="text-decoration-none d-flex flecha" to={'/About'}>
+                            <p className='px-2'>Saber mas... </p> 
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </Link>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <Footer />
         
         
     </div>
@@ -325,3 +266,11 @@ function Inicio2() {
 }
 
 export default Inicio2
+
+
+
+
+
+
+
+

@@ -10,6 +10,8 @@ import Ambientalfoto from '../images/ambiental.png'
 import Estudios from '../images/estudios.png'
 import Civil from '../images/civil.png'
 
+import Footer from '../components/Footer';
+
 function SeguridadySalud() {
   return (
     <div>
@@ -25,42 +27,42 @@ function SeguridadySalud() {
 
                       <div className=' d-flex'>
                           < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-primary'> Capacitaciones DC-03. </p> 
+                          <p className='px-2 fs-5 text-white'> Capacitaciones DC-03. </p> 
                       </div>
 
                       <div className='d-flex'>
                           < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-primary'> Programa de autogestión de seguridad y salud en el trabajo </p> 
+                          <p className='px-2 fs-5 text-white'> Programa de autogestión de seguridad y salud en el trabajo </p> 
                       </div>
 
                       <div className='d-flex'>
                           < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-primary'>Atención a inspecciones </p> 
+                          <p className='px-2 fs-5 text-white'>Atención a inspecciones </p> 
                       </div>
 
                       <div className='d-flex'>
                           < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-primary'> Auditorias en seguridad y salud </p> 
+                          <p className='px-2 fs-5 text-white'> Auditorias en seguridad y salud </p> 
                       </div>
 
                       <div className='d-flex'>
                           < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-primary'> Contestación de emplazamientos </p> 
+                          <p className='px-2 fs-5 text-white'> Contestación de emplazamientos </p> 
                       </div>
 
                       <div className='d-flex style={{ flexShrink: 0 }}'>
                           < BsFillArrowThroughHeartFill className=' fs-1 text-danger' />
-                          <p className='px-2 fs-5 text-primary'> Estudios ergonómicos (Actividades de carga manual, movimientos repetitivos, posturas forzadas, confort térmico) </p> 
+                          <p className='px-2 fs-5 text-white'> Estudios ergonómicos (Actividades de carga manual, movimientos repetitivos, posturas forzadas, confort térmico) </p> 
                       </div>
 
                       <div className='d-flex'>
                           < BsFillArrowThroughHeartFill className=' fs-4 text-danger' />
-                          <p className='px-2 fs-5 text-primary'> Elaboración de mapas de riesgo </p> 
+                          <p className='px-2 fs-5 text-white'> Elaboración de mapas de riesgo </p> 
                       </div>
 
                       <div className='d-flex'>
                           < BsFillArrowThroughHeartFill className=' fs-4 text-danger' />
-                          <p className='px-2 fs-5 text-primary'> Elaboración de Layout de equipo de atención a emergencias </p> 
+                          <p className='px-2 fs-5 text-white'> Elaboración de Layout de equipo de atención a emergencias </p> 
                       </div>
                     </div>
                 </div>
@@ -195,19 +197,8 @@ function SeguridadySalud() {
             </div>
       </section>
            
-
-            
-
-            
-
-
-            
-
-            
-
-            
-          
-
+    <Footer />
+    
     </div>
   )
 }

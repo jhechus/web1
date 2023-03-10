@@ -8,6 +8,8 @@ import Ambientalfoto from '../images/ambiental.png'
 import Estudios from '../images/estudios.png'
 import Civil from '../images/civil.png'
 
+import Footer from '../components/Footer'
+
 function MuestreosyAnalisis() {
   return (
     <div>
@@ -124,6 +126,7 @@ function MuestreosyAnalisis() {
             </div>
       </section>
 
+    <Footer/>
 
     </div>
   )

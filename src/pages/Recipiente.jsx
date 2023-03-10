@@ -8,6 +8,8 @@ import Ambiental from '../images/ambiental.png'
 import Estudios from '../images/estudios.png'
 import Civil from '../images/civil.png'
 
+import Footer from '../components/Footer'
+
 function Recipiente() {
   return (
     <div>
@@ -119,6 +121,8 @@ function Recipiente() {
                 </div>
             </div>
       </section>
+
+      <Footer/>
 
     </div>
   )
