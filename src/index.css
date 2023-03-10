@@ -1,10 +1,10 @@
 .bgnav{
-  background-color: #c7b470
+  background-color: #f9f7d3
   ;
 }
 
 .bgnav .Logo img{
-  height: 80px;
+  height: 50px;
   object-fit: cover;
 }
 
@@ -17,8 +17,13 @@ Inicio
 
 */
 
+.logoi img{
+  width: 300px;
+  height: 200px;
+}
+
 .bginicio{
-  background-color: #6ba3ba;
+  background-color: #cbe7f1;
 }
 
 .lassa h1{
@@ -65,6 +70,21 @@ Inicio
 .normas .check p{
   padding-left: 10px;
   margin-top: -4px;
+}
+
+.servicios img{
+  margin: 0 50px;
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+}
+
+.ourservice h2{
+  color: black;
+}
+
+.servicios h3{
+  color: #961293;
 }
 
 /*
@@ -152,3 +172,113 @@ Nosotros
   padding-right: 20px;
   text-align: center;
 }
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Contacto
+
+*/
+
+input, select, option, textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid black;
+  margin: 5px 0px;
+  opacity: 0.5;
+}
+input:hover, input:focus, select:hover, select:focus, option:hover, option:focus, textarea:hover, textarea:focus {
+  opacity: 1;
+  color: black;
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 150px;
+  max-height: 250px;
+}
+
+button {
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 5px 0px;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: .5s;
+}
+button:hover {
+  opacity: 1;
+  background-color: #f9f7d3;
+  color: black;
+}
+
+.my-form {
+  color: #060a01;
+}
+.my-form .form-control {
+  border-radius: 0;
+}
+
+.follow-us-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.follow-us-container .follow-us {
+  font-size: 32px;
+  color: #060a01;
+}
+.follow-us-container .social-icon {
+  padding: 6px 6px;
+  font-size: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #777;
+  border-radius: 50%;
+  color: #777;
+  margin: 5px;
+}
+.follow-us-container .social-icon .social-icon:hover {
+  text-decoration: none;
+  color: #060a01;
+  border-color: #434343;
+}
+
+.googlemap{
+  width: 600px;
+  height: 450px;
+}
+
+@media (max-width: 750px) {
+  .googlemap{
+    width: 350px;
+    height: 200px;
+  }
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Estudios y Proyectos Ambientales
+
+*/
+
+@media (min-width: 1000px){
+  .proyectos ul{
+    padding: 0 120px;
+  }
+
+  .serviciosp{
+    padding: 0 120px;
+  }
+}
+
