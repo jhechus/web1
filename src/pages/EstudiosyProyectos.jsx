@@ -17,7 +17,7 @@ function EstudiosyProyectos() {
       </section>
 
       <section>
-        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5">
+        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
             
             <div className="col-lg-5 ">
                 

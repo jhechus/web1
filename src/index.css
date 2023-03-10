@@ -8,6 +8,11 @@
   object-fit: cover;
 }
 
+ .navl p {
+  font-family: 'Cinzel', serif;
+  color: #8064a2;
+ }
+
 
 /*
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -56,7 +61,7 @@ Inicio
 }
 
 .normas h5{
-  color: #961293;
+  color: #8064a2;
 }
 
 .normas h2{
@@ -84,7 +89,13 @@ Inicio
 }
 
 .servicios h3{
-  color: #961293;
+  color: #8064a2;
+}
+
+header .lassabtn:hover{
+  transition: .8s;
+  background-color: #8064a2;
+  color: #c7b470;
 }
 
 /*
@@ -282,3 +293,15 @@ Estudios y Proyectos Ambientales
   }
 }
 
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Ambiental
+
+*/
+
+#ambiental .bgambiental{
+  background-color: #a9d08e;
+}

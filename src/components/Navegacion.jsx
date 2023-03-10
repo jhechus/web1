@@ -13,8 +13,8 @@ function Navegacion() {
     <>
       <Navbar className='bgnav' expand="lg">
         <Container>
-        <div className="d-flex justify-content-between w-100">
-          <Navbar.Brand as={Link} to='/' className='Logo'> <img src={Logo} alt="Logo" /> </Navbar.Brand>
+        <div className="d-flex justify-content-between w-100 navl">
+          <Navbar.Brand as={Link} to='/' className='Logo d-flex'> <img  src={Logo} alt="Logo" /> <p className=' fs-6 mt-3 mx-2 d-none d-md-block'> Laboratorio Analítico Ambiental S.A. de C.V. </p> </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>
           <Navbar.Collapse id="basic-navbar-nav">
@@ -31,8 +31,8 @@ function Navegacion() {
                 <NavDropdown.Item as={Link} to='/proyectosyAmbiental'> Estudios & Proyectos Ambientales </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/ServicioMedico'> Servicio Medico </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link as={Link} to='/Blog'> Blog </Nav.Link>
-              <Nav.Link as={Link} to='/Acreditaciones'> Acreditaciones </Nav.Link>
+              <Nav.Link as={Link} to='/Blog' className=' visually-hidden'> Blog </Nav.Link>
+              <Nav.Link as={Link} to='/Acreditaciones' className=' visually-hidden'> Acreditaciones </Nav.Link>
               <Nav.Link as={Link} to='/Contact'> Contacto </Nav.Link>
             </Nav>
           </Navbar.Collapse>

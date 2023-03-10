@@ -29,7 +29,7 @@ function ProteccionCivil() {
     </section>
 
     <section>
-        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5">
+        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
             <div className="col-lg-5"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x600/dee2e6/6c757d.jpg" alt="..." /></div>
 
             <div className="col-lg-7">

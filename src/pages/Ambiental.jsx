@@ -10,8 +10,8 @@ import Civil from '../images/civil.png'
 
 function Ambiental() {
   return (
-    <div>
-      <section className="card text-white bg-success my-1 py-4 text-center">
+    <div id='ambiental'>
+      <section className="card text-white bgambiental my-1 py-4 text-center">
         <div className="card-body">
           <h2 className="text-white m-0"> AMBIENTAL </h2>
         </div>
@@ -19,7 +19,7 @@ function Ambiental() {
 
 
       <section>
-        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5">
+        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
             <div className="col-lg-7"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x600/dee2e6/6c757d.jpg" alt="..." /></div>
             <div className="col-lg-5">
                 <h6><strong>Laboratorio Analitico Ambiental, S.A de C.V. </strong> es división ambiental de GRUPO VIDESA, cuyo propósito es el de auxiliar a empresas en sus programas y políticas de Conservación del Entorno Ecológico y Medio Ambiente, mediante el Reconocimiento, la Evaluación y el Control de los contaminantes emitidos hacia el Agua, el Aire y el Suelo.</h6>

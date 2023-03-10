@@ -9,6 +9,9 @@ import Estudios from '../images/estudios.png'
 import Civil from '../images/civil.png'
 import Logo from '../images/logoo.png'
 
+import { FaSeedling } from "react-icons/fa";
+import { BiPhoneCall } from "react-icons/bi";
+
 function Inicio2() {
   return (
     <div>
@@ -18,9 +21,11 @@ function Inicio2() {
                     <div className="col-lg-6">
                         <div className="lassa text-center my-1 logoi">
                             <img src={Logo} alt="Lassa" />
-                            <p className="lead text-black fw-normal mb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consectetur, ratione enim necessitatibus molestiae unde consequatur, eum sunt quidem recusandae nostrum laborum odit, ipsum eaque dolorem nesciunt sequi itaque quod.</p>
+                            <p className="lead text-black fw-normal mb-4">Laboratorio Analitico Ambiental, S.A de C.V. ofrece soluciones integrales tanto a grandes  industrias como a pequeños negocios en materia de  medio ambiente, protección civil, seguridad y salud en  el trabajo, cumpliendo con la normatividad vigente y  estándares internacionales. </p>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                <a className="lassabtn btn btn-lg px-4 me-sm-3" href="tel:+525547824383"> LLamanos <ion-icon name="call-outline"></ion-icon> </a>
+                                <a className="lassabtn btn btn-lg px-4 me-sm-3" href="tel:+525551614373"> LLamanos <BiPhoneCall /> </a>
+
+                                <Link className="lassabtn btn btn-lg px-4 me-sm-3" to={'/About'}> Conocenos <FaSeedling /> </Link>
                             </div>
                         </div>
                     </div>
@@ -107,7 +112,7 @@ function Inicio2() {
                         <Link className="text-decoration-none" to={'/Muestreos_Analisis'}> <h2 className="h4 fw-bolder text-center"> Muestreos & Analisis Ambientales </h2> </Link> 
                         
                         
-                        <Link to={'/Muestreos_Analisis'}> <h5><strong> Analisis de agua </strong></h5> </Link>
+                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Analisis de agua </strong></h5> </Link>
 
                         <div>
                             <h6><strong> NOM-001-SEMARNAT-1996 </strong></h6>
