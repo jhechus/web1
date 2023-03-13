@@ -1,29 +1,24 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Muestreo from '../images/muestreo.png'
-import Seguridad from '../images/seguridad.png'
-import Presion from '../images/presion.png'
-import Proteccion from '../images/Proteccion.png'
-import Ambientalfoto from '../images/ambiental.png'
-import Estudios from '../images/estudios.png'
-import Civil from '../images/civil.png'
 
 import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
 
+import fotoMyA from '../images/muestreoyanalis.png'
+
 function MuestreosyAnalisis() {
   return (
     <div>
-<section className="card text-white bg-info my-1 py-4 text-center">
-        <div className="card-body">
-          <h2 className="text-white m-0"> Muestreos y Analisis </h2>
-        </div>
-      </section>
-
+      <div id='top'>
+        <section className="card text-white bg-info my-1 py-4 text-center">
+          <div className="card-body">
+            <h2 className="text-white m-0"> Muestreos y Analisis </h2>
+          </div>
+        </section>
+      </div>
 
       <section>
         <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
-            <div className="col-lg-7"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x600/dee2e6/6c757d.jpg" alt="..." /></div>
+            <div className="col-lg-7"><img className="img-fluid rounded mb-4 mb-lg-0" src={fotoMyA} alt="..." /></div>
             <div className="col-lg-5">
                 <h6>Los servicios que se emplean para estas normas son principalmente los de monitoreo y análisis de aguas residuales. Estos servicios se encargan de realizar mediciones y análisis físico-químicos y bacteriológicos del agua residual, a fin de determinar su composición y características, y verificar que cumpla con los límites establecidos en cada norma. </h6>
 
@@ -46,11 +41,11 @@ function MuestreosyAnalisis() {
       <section>
         <div className=' container'>
           <div className=' col-lg-12'>
-            <h3 className=' text-center py-5'> Normas para el Analisis del agua </h3>
+            <h3 className=' text-center py-5'> Normas para el Análisis del agua </h3>
           </div>
 
           <div className=' col-lg-112 px-5'>
-            <h5><strong> NOM-001-SEMARNAT-1996.- </strong>Descargas de aguas  residuales en aguas y bienes nacionales.</h5>
+            <h5><strong> NOM-001-SEMARNAT-1996.- </strong>Descargas de aguas residuales en aguas y bienes nacionales.</h5>
             <h5><strong> NOM-002-SEMARNAT-1996.- </strong>Descargas de aguas  residuales a los sistemas de alcantarillado urbano o  municipal. </h5>
             <h5><strong> NOM-003-SEMARNAT-1997.- </strong>Aguas residuales tratadas que se reúsen en servicios al público. </h5>
             <h5><strong> NADF-015-AGUA-2009.- </strong>Descargas de aguas residuales al  sistema de drenaje y alcantarillado del Distrito Federal,  provenientes de las fuentes fijas. </h5>

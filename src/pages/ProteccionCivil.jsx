@@ -1,26 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Muestreo from '../images/muestreo.png'
-import Seguridad from '../images/seguridad.png'
-import Presion from '../images/presion.png'
-import Proteccion from '../images/Proteccion.png'
-import Ambiental from '../images/ambiental.png'
-import Estudios from '../images/estudios.png'
-import Civil from '../images/civil.png'
 
 import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
 
+import ftproteccion from '../images/pc.png'
+
 function ProteccionCivil() {
   return (
     <div>
-      <section className="bg-dark py-5">
+      <section className="pcbg py-5">
         <div className="container px-5">
             <div className="row gx-5 align-items-center justify-content-center">
                 <div className="col-lg-12 col-xl-12 col-xxl-6">
                     <div className="my-5 text-center text-xl-start">
                         <h1 className="display-5 fw-bolder text-white mb-2 text-center"> Proteccion civil </h1>
-                        <p className="lead fw-normal text-white-50 mb-4 text-center"><strong> NO ARRIESGUES TU NEGOCIO O TU OBRA, EVITA LA CLAUSURA CON TUS TRAMITES ANTE PROTECCIÓN CIVIL VIGENTES Y AUTORIZADOS. </strong></p>
+                        <p className="lead fw-normal text-white mb-4 text-center"><strong> NO ARRIESGUES TU NEGOCIO O TU OBRA, EVITA LA CLAUSURA CON TUS TRAMITES ANTE PROTECCIÓN CIVIL VIGENTES Y AUTORIZADOS. </strong></p>
                         <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
                             <a className="btn btn-primary btn-lg px-4 me-sm-3" href="#features"> Contactanos </a>
                         </div>
@@ -33,7 +27,7 @@ function ProteccionCivil() {
 
     <section>
         <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
-            <div className="col-lg-5"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/600x450/dee2e6/6c757d.jpg" alt="..." /></div>
+            <div className="col-lg-5"><img className="img-fluid rounded mb-4 mb-lg-0" src={ftproteccion} alt="..." /></div>
 
             <div className="col-lg-7">
                 <h4 className=' text-center'><strong>Laboratorio Analitico Ambiental, S.A de C.V. </strong> Tramita todo lo necesario para que <span className=' text-primary'> tu empresa este regularizada. </span></h4>

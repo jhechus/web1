@@ -3,12 +3,14 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
 
+import presion from '../images/recipiente.png'
+
 function Recipiente() {
   return (
     <div>
       <section>
         <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
-            <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x650/dee2e6/6c757d.jpg" alt="..." /></div>
+            <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src={presion} alt="..." /></div>
 
             <div className="col-lg-6">
                 <h6><strong>Laboratorio Analitico Ambiental, S.A de C.V. </strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolorum sequi vitae minima illo ex, est error adipisci saepe earum, consequatur sed mollitia eaque, cupiditate praesentium nobis vero similique excepturi! </h6>

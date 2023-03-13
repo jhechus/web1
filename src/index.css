@@ -38,7 +38,8 @@ Inicio
 }
 
 .lassa .nameL{
-  color: #961293;
+  color: #8064a2;
+  font-weight: 500;
 }
 
 .lassa a{
@@ -123,6 +124,19 @@ Seguridad y Salud
 
 */
 
+.fotobg{
+  background-image: url(/src/images/seguridadbg.png);
+}
+
+.fotobg h5{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.fotobg ul{
+  color: #434343;
+}
+
 .encabezadosys{
   padding-left: 550px;
 }
@@ -154,10 +168,24 @@ Servicio medico
 
 */
 
+.encabezado .bdSM{
+  background-color: #cbe7f1;
+}
+
+.encabezado h2{
+  font-weight: 700;
+  color: #8064a2;
+}
+
 .carta{
   max-width: 28rem;
   float: right;
   margin-top: 50px;
+}
+
+
+.bgmdc{
+  background-color: #cbe7f1;
 }
 
 .imgcovid img{
@@ -183,7 +211,11 @@ Nosotros
 }
 
 .MyV h2{
-  color: #961293;
+  color: #8064a2;
+}
+
+.MyV p{
+  color: #cbe7f1;
 }
 
 #valores .allvalors{
@@ -349,6 +381,20 @@ Estudios y Proyectos Ambientales
     padding: 0 120px;
   }
 }
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Proteccion civil
+
+*/
+
+
+.pcbg{
+  background-image: url(/src/images/incendio.png);
+}
+
 
 
 /*

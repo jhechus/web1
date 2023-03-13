@@ -40,11 +40,11 @@ function Footer() {
                             <span className="fa-li vane"><GoLocation/></span><span className="ms-2 vane"> P.º San Francisco 1, Jardines de Atizapan, 52975 </span>
                         </li>
                         <li className="mb-3">
-                             <a href="mailto:gerencia@laasamexico.com.mx subject:Para laasa" className=' text-decoration-none'><span className="fa-li vane"><AiOutlineMail /></span><span className="ms-2 vane">gerencia@laasamexico.com.mx 
+                             <a href="mailto: gerencia@laasamexico.com.mx " className=' text-decoration-none'><span className="fa-li vane"><AiOutlineMail /></span><span className="ms-2 vane">gerencia@laasamexico.com.mx 
                             </span></a>
                         </li>
                         <li className="mb-3">
-                            <a href="mailto:calidad@laasamexico.com.mx" className=' text-decoration-none'><span className="fa-li vane"><AiOutlineMail /></span><span className="ms-2 vane">calidad@laasamexico.com.mx
+                            <a href="mailto:calidad@laasamexico.com.mx " className=' text-decoration-none'><span className="fa-li vane"><AiOutlineMail /></span><span className="ms-2 vane">calidad@laasamexico.com.mx
                             </span></a>
                         </li>
                         <li className="mb-3">

@@ -1,30 +1,31 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Muestreo from '../images/muestreo.png'
-import Seguridad from '../images/seguridad.png'
-import Presion from '../images/presion.png'
-import Proteccion from '../images/Proteccion.png'
-import Ambiental from '../images/ambiental.png'
-import Estudios from '../images/estudios.png'
-import Civil from '../images/civil.png'
 
 import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
+
+import ftdoctor from '../images/doctor.png'
+import ftcovid from '../images/covid.png'
+import ftdoctor2 from '../images/docotres.png'
+import ruidos from '../images/ruidos.png'
+import respiracion from '../images/respiracion.png'
+import esqueleto from '../images/esqueleto.png'
+import fisico from '../images/fisico.png'
 
 function ServicioMedico() {
   return (
     <div>
       <div>
-        <section className="card text-white bg-info my-1 py-4 text-center">
-          <div className="card-body">
-            <h2 className="text-white m-0"> Servicio Medico </h2>
-          </div>
-        </section>
-
+          <div className='encabezado'>
+            <section className="card my-1 py-4 text-center bdSM">
+              <div className="card-body">
+                <h2 className=" m-0"> Servicio Medico </h2>
+              </div>
+            </section>
+          </div> 
 
         <section>
           <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
-              <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x600/dee2e6/6c757d.jpg" alt="..." /></div>
+              <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src={ftdoctor} alt="..." /></div>
               <div className="col-lg-6">
                   <h6><strong>Laboratorio Analitico Ambiental, S.A de C.V. </strong> ... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla optio ipsum mollitia exercitationem rerum! Officiis, necessitatibus? Ab a molestias eaque eum cupiditate aliquid ex, optio debitis quam repudiandae reiciendis non! </h6>
                   <br /> <br />
@@ -64,36 +65,36 @@ function ServicioMedico() {
                   </div>
               </div>
 
-              <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/700x400/dee2e6/6c757d.jpg" alt="..." /></div>
+              <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src={ftdoctor2} alt="..." /></div>
           </div>
         </section>
         
 
-        <section className=' text-center bg-info'>
+        <section className=' text-center bgmdc'>
           <h2 className=' py-4'> Programas medicos </h2>
           <div className='container'>
             <div className='row'>
     
               <div className='col-md-3 col-sm-6'>
-                <img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/180x180/dee2e6/6c757d.jpg" alt="..." />
+                <img className="img-fluid rounded mb-4 mb-lg-0" src={ruidos} alt="..." />
                 <h6 className=' py-3'> PROGRAMA DE CONSERVACIÓN DE LA AUDICIÓN. </h6>
                 <p className=' px-3'> PROGRAMA DE CONSERVACIÓN DE LA AUDICIÓN. Dirigido a prevenir la aparición de efectos en la salud auditiva de los trabajadores por exposición al ruido ocupacional. </p>
               </div>
 
               <div className='col-md-3 col-sm-6'>
-                <img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/180x180/dee2e6/6c757d.jpg" alt="..." />
+                <img className="img-fluid rounded mb-4 mb-lg-0" src={respiracion} alt="..." />
                 <h6 className=' py-3'> PROGRAMA DE CONSERVACIÓN RESPIRATORIA. </h6>
                 <p className=' px-3'> Ayuda a reducir la exposición ocupacional de los trabajadores a los contaminantes aéreos como partículas, gases y vapores, y a la deficiencia de oxígeno. </p>
               </div>
 
               <div className='col-md-3 col-sm-6'>
-                <img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/180x180/dee2e6/6c757d.jpg" alt="..." />
+                <img className="img-fluid rounded mb-4 mb-lg-0" src={esqueleto} alt="..." />
                 <h6 className=' py-3'> CUESTIONARIO KUORINKA​. </h6>
                 <p className=' px-3'> Para la detección y análisis de síntomas músculo-esqueléticos, aplicable en el contexto de estudios ergonómicos o de salud ocupacional. </p>
               </div>
 
               <div className='col-md-3 col-sm-6'>
-                <img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/180x180/dee2e6/6c757d.jpg" alt="..." />
+                <img className="img-fluid rounded mb-4 mb-lg-0" src={fisico} alt="..." />
                 <h6 className=' py-3'> PRUEBA DE ESFUERZO. </h6>
                 <p className=' px-3'> Examen diagnóstico que consiste en realizar un registro del electrocardiograma durante un esfuerzo controlado, es decir, se monitoriza el ritmo del corazón y la presión arterial. </p>
               </div>
@@ -106,7 +107,7 @@ function ServicioMedico() {
 
         <section>
           <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
-              <div className="col-lg-6 imgcovid"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/400x600/dee2e6/6c757d.jpg" alt="..." /></div>
+              <div className="col-lg-6 imgcovid"><img className="img-fluid rounded mb-4 mb-lg-0" src={ftcovid} alt="..." /></div>
 
               <div className="col-lg-6">
                   
@@ -134,9 +135,9 @@ function ServicioMedico() {
           </div>
         </section>
 
-      <Servicios />
+        <Servicios />
 
-      <Footer />
+        <Footer />
 
 
       </div>

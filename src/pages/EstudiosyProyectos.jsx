@@ -1,7 +1,7 @@
-
-
 import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
+
+import ftEambiental from '../images/estambiental.png'
 
 function EstudiosyProyectos() {
   return (
@@ -41,7 +41,7 @@ function EstudiosyProyectos() {
                 </div>
             </div>
 
-            <div className="col-lg-7"><img className="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x450/dee2e6/6c757d.jpg" alt="..." /></div>
+            <div className="col-lg-7"><img className="img-fluid rounded mb-4 mb-lg-0" src={ftEambiental} alt="..." /></div>
         </div>
       </section>
 

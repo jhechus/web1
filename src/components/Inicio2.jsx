@@ -18,11 +18,11 @@ function Inicio2() {
                     <div className="col-lg-6">
                         <div className="lassa text-center my-1 logoi">
                             <img src={Logo} alt="Lassa" />
-                            <p className="lead text-black fw-normal mb-4"> <span className='nameL'> <strong>Laboratorio Analitico Ambiental, S.A de C.V. </strong> </span> ofrece soluciones integrales tanto a grandes  industrias como a pequeños negocios en materia de  medio ambiente, protección civil, seguridad y salud en  el trabajo, cumpliendo con la normatividad vigente y  estándares internacionales. </p>
+                            <p className="lead text-black fw-normal mb-4"> <span className='nameL'> <strong>Laboratorio Analítico Ambiental, S.A de C.V. </strong> </span> ofrece soluciones integrales tanto a grandes industrias como a pequeños negocios en materia de medio ambiente, protección civil, seguridad y salud en el trabajo, cumpliendo con la normatividad vigente y estándares internacionales. </p>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                <a className="lassabtn btn btn-lg px-4 me-sm-3" href="tel:+525551614373"> LLamanos <BiPhoneCall /> </a>
+                                <a className="lassabtn btn btn-lg px-4 me-sm-3" href="tel:+525551614373"> Llámanos <BiPhoneCall /> </a>
 
-                                <Link className="lassabtn btn btn-lg px-4 me-sm-3" to={'/About'}> Conocenos <FaSeedling /> </Link>
+                                <Link className="lassabtn btn btn-lg px-4 me-sm-3" to={'/About'}> Conócenos <FaSeedling /> </Link>
                             </div>
                         </div>
                     </div>
@@ -41,10 +41,10 @@ function Inicio2() {
                     <div className="col-lg-4 mb-5 mb-lg-0">
                         <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i className="bi bi-collection"></i></div>
                         
-                        <Link className="text-decoration-none" to={'/Muestreos_Analisis'}> <h2 className="h4 fw-bolder text-center"> Muestreos & Analisis Ambientales </h2> </Link> 
+                        <Link className="text-decoration-none" to={'/Muestreos_Analisis'}> <h2 className="h4 fw-bolder text-center"> Muestreos & Análisis Ambientales. </h2> </Link> 
                         
                         
-                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Analisis de agua </strong></h5> </Link>
+                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Análisis de agua. </strong></h5> </Link>
 
                         <div>
                             <h6><strong> NOM-001-SEMARNAT-1996 </strong></h6>
@@ -54,19 +54,19 @@ function Inicio2() {
                             <p> Descargas de aguas residuales a los sistemas de alcantarillado urbano o municipal. </p>
                             
                             <h6><strong> NOM-003-SEMARNAT-1997 </strong></h6>
-                            <p> Aguas residuales tratadas que se reusen en servicios al publico. </p>
+                            <p> Aguas residuales tratadas que se reúsen en servicios al público. </p>
 
                             <h6><strong> NADF-015-AGUA-2009 </strong></h6>
                             <p> Descargas de agua residuales al sistema de drenaje y alcantarillado del Distrito Federal, provenientes de las fuentes fijas </p>
                         </div>
 
-                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Emisiones a la atmosfera </strong></h5> </Link>
+                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Emisiones a la atmósfera. </strong></h5> </Link>
 
                         <h6><strong> NADF-011-AMBT-2018  </strong></h6>
-                        <p> Compuestos organicos volatiles emitidos por fuentes fijas de competencia de la Ciudad de Mexico </p>
+                        <p> Compuestos orgánicos volátiles emitidos por fuentes fijas de competencia de la Ciudad de México. </p>
 
                         <h6><strong> NADF-016-AMBT-2016  </strong></h6>
-                        <p> Equipos de combustión de calentamiento indirecto que deberán cumplir los responsbles de industrias, comercios y servicios ubicados en el territorio de la Ciudad de México. </p>
+                        <p> Equipos de combustión de calentamiento indirecto que deberán cumplir los responsables de industrias, comercios y servicios ubicados en el territorio de la Ciudad de México. </p>
 
                         <h6><strong> NOM-043-SEMARNAT-1993  </strong></h6>
                         <p> Emision a la atmosfera de particulas sólidas provenientes de fuentes fijas. </p>
@@ -80,7 +80,7 @@ function Inicio2() {
                         <h6><strong> US EPA TEST METHOD 10  </strong></h6>
                         <p> Emisiones de monóxido de carbono en fuentes fijas. </p>
 
-                        <Link to={'/Muestreos_Analisis'} className=' text-decoration-none'> <h5><strong> Ruido Perimetral y Vibraciones </strong></h5> </Link>
+                        <Link to={'/Muestreos_Analisis#top'} className=' text-decoration-none'> <h5><strong> Ruido Perimetral y Vibraciones </strong></h5> </Link>
 
                         <div>
                             <h6><strong> NADF-004-AMBT-2004 </strong></h6>
@@ -124,8 +124,8 @@ function Inicio2() {
                         </div>
                         
                         
-                        <Link className="text-decoration-none d-flex flecha" to={'/Muestreos_Analisis'}>
-                            <p className='px-2'>Saber mas... </p> 
+                        <Link className="text-decoration-none d-flex flecha" to='/Muestreos_Analisis'>
+                            <p className='px-2'>Saber más... </p> 
                             <ion-icon name="arrow-forward-outline"></ion-icon>
                         </Link>
                     </div>
@@ -221,8 +221,8 @@ function Inicio2() {
                         <h6><strong> NOM-030-STPS-2009 </strong></h6>
                         <p> Servicios preventivos de seguridad y salud en el trabajo. </p>
 
-                        <Link className="text-decoration-none d-flex flecha" to={'/Muestreos_Analisis'}>
-                            <p className='px-2'>Saber mas... </p> 
+                        <Link className="text-decoration-none d-flex flecha" to={'/Seguridad_Salud'}>
+                            <p className='px-2'>Saber más... </p> 
                             <ion-icon name="arrow-forward-outline"></ion-icon>
                         </Link>
                     </div>
@@ -242,8 +242,8 @@ function Inicio2() {
                         </ul>
 
 
-                        <Link className="text-decoration-none d-flex flecha" to={'/About'}>
-                            <p className='px-2'>Saber mas... </p> 
+                        <Link className="text-decoration-none d-flex flecha px-5" to={'/About'}>
+                            <p className='px-2'>Saber más... </p> 
                             <ion-icon name="arrow-forward-outline"></ion-icon>
                         </Link>
                     </div>

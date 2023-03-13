@@ -1,15 +1,9 @@
 import React from 'react'
 import { BsFillArrowThroughHeartFill } from "react-icons/bs";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";
+import { GiHealthNormal } from "react-icons/gi";
 
-import { Link } from 'react-router-dom'
-import Muestreo from '../images/muestreo.png'
-import Seguridad from '../images/seguridad.png'
-import Presion from '../images/presion.png'
-import Proteccion from '../images/Proteccion.png'
-import Ambientalfoto from '../images/ambiental.png'
-import Estudios from '../images/estudios.png'
-import Civil from '../images/civil.png'
+
 
 import Footer from '../components/Footer';
 import Servicios from '../components/Servicios';
@@ -18,46 +12,46 @@ function SeguridadySalud() {
   return (
     <div>
 
-    <section className="bg-dark py-5">
+    <section className="fotobg py-5">
         <div className="container px-5">
             <div className="row gx-5 align-items-center justify-content-center">
                 <div className="col-lg-12 col-xl-12 col-xxl-6">
                     <div className="my-3 text-lg-start text-md-start">
-                      <h5 className="text-center fs-5 text-success"> Seguridad y salud en el trabajo </h5>
+                      <h5 className="text-center"> Seguridad y salud en el trabajo </h5>
 
                       <br />
 
-                      <ul className=' text-white list-unstyled'>
+                      <ul className='list-unstyled'>
                         <li className=' pt-2'>
-                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            <span className=' text-danger fs-4'> <GiHealthNormal /> </span>
                             Capacitaciones DC-03.
                         </li>
                         <li className=' pt-2'>
-                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            <span className=' text-danger fs-4'> <GiHealthNormal /> </span>
                             Programa de autogestión de seguridad y salud en el trabajo.
                         </li>
                         <li className=' pt-2'>
-                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            <span className=' text-danger fs-4'> <GiHealthNormal /> </span>
                             Atención a inspecciones.
                         </li>
                         <li className=' pt-2'>
-                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            <span className=' text-danger fs-4'> <GiHealthNormal /> </span>
                             Auditorias en seguridad y salud.
                         </li>
                         <li className=' pt-2'>
-                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            <span className=' text-danger fs-4'> <GiHealthNormal /> </span>
                             Contestación de emplazamientos.
                         </li>
                         <li className=' pt-2'>
-                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            <span className=' text-danger fs-4'> <GiHealthNormal /> </span>
                             Estudios ergonómicos (Actividades de carga manual, movimientos repetitivos, posturas forzadas, confort térmico).
                         </li>
                         <li className=' pt-2'>
-                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            <span className=' text-danger fs-4'> <GiHealthNormal /> </span>
                             Elaboración de mapas de riesgo.
                         </li>
                         <li className=' pt-2'>
-                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            <span className=' text-danger fs-4'> <GiHealthNormal /> </span>
                             Elaboración de Layout de equipo de atención a emergencias.
                         </li>
                       </ul>
@@ -151,7 +145,7 @@ function SeguridadySalud() {
 
 
                 <div className='col-lg-4'>
-                    <h4 className=' px-5'> Normas de Organizacion</h4>
+                    <h4 className=' px-5'> Normas de organización </h4>
                     <ul>
                         <li><strong> NOM-017-STPS-2008.- </strong >Equipo de protección personal. </li>
                         <li><strong>  NOM-018-STPS-2015.- </strong> Sistema armonizado para la  identificación y comunicación de peligros y riesgos por  sustancias químicas peligrosas. </li>
