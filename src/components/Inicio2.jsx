@@ -1,12 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Muestreo from '../images/muestreo.png'
-import Seguridad from '../images/seguridad.png'
-import Presion from '../images/presion.png'
-import Proteccion from '../images/Proteccion.png'
-import Ambiental from '../images/ambiental.png'
-import Estudios from '../images/estudios.png'
-import Civil from '../images/civil.png'
+
 import Logo from '../images/logoo.png'
 
 import { FaSeedling } from "react-icons/fa";
@@ -24,7 +18,7 @@ function Inicio2() {
                     <div className="col-lg-6">
                         <div className="lassa text-center my-1 logoi">
                             <img src={Logo} alt="Lassa" />
-                            <p className="lead text-black fw-normal mb-4">Laboratorio Analitico Ambiental, S.A de C.V. ofrece soluciones integrales tanto a grandes  industrias como a pequeños negocios en materia de  medio ambiente, protección civil, seguridad y salud en  el trabajo, cumpliendo con la normatividad vigente y  estándares internacionales. </p>
+                            <p className="lead text-black fw-normal mb-4"> <span className='nameL'> <strong>Laboratorio Analitico Ambiental, S.A de C.V. </strong> </span> ofrece soluciones integrales tanto a grandes  industrias como a pequeños negocios en materia de  medio ambiente, protección civil, seguridad y salud en  el trabajo, cumpliendo con la normatividad vigente y  estándares internacionales. </p>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                                 <a className="lassabtn btn btn-lg px-4 me-sm-3" href="tel:+525551614373"> LLamanos <BiPhoneCall /> </a>
 

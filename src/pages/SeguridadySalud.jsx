@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsFillArrowThroughHeartFill } from "react-icons/bs";
+import { MdOutlineMiscellaneousServices } from "react-icons/md";
 
 import { Link } from 'react-router-dom'
 import Muestreo from '../images/muestreo.png'
@@ -11,6 +12,7 @@ import Estudios from '../images/estudios.png'
 import Civil from '../images/civil.png'
 
 import Footer from '../components/Footer';
+import Servicios from '../components/Servicios';
 
 function SeguridadySalud() {
   return (
@@ -20,58 +22,94 @@ function SeguridadySalud() {
         <div className="container px-5">
             <div className="row gx-5 align-items-center justify-content-center">
                 <div className="col-lg-12 col-xl-12 col-xxl-6">
-                    <div className="my-3 text-center text-xl-start">
+                    <div className="my-3 text-lg-start text-md-start">
                       <h5 className="text-center fs-5 text-success"> Seguridad y salud en el trabajo </h5>
 
                       <br />
 
-                      <div className=' d-flex'>
-                          < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-white'> Capacitaciones DC-03. </p> 
-                      </div>
-
-                      <div className='d-flex'>
-                          < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-white'> Programa de autogestión de seguridad y salud en el trabajo </p> 
-                      </div>
-
-                      <div className='d-flex'>
-                          < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-white'>Atención a inspecciones </p> 
-                      </div>
-
-                      <div className='d-flex'>
-                          < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-white'> Auditorias en seguridad y salud </p> 
-                      </div>
-
-                      <div className='d-flex'>
-                          < BsFillArrowThroughHeartFill className=' fs-3 text-danger' />
-                          <p className='px-2 fs-5 text-white'> Contestación de emplazamientos </p> 
-                      </div>
-
-                      <div className='d-flex style={{ flexShrink: 0 }}'>
-                          < BsFillArrowThroughHeartFill className=' fs-1 text-danger' />
-                          <p className='px-2 fs-5 text-white'> Estudios ergonómicos (Actividades de carga manual, movimientos repetitivos, posturas forzadas, confort térmico) </p> 
-                      </div>
-
-                      <div className='d-flex'>
-                          < BsFillArrowThroughHeartFill className=' fs-4 text-danger' />
-                          <p className='px-2 fs-5 text-white'> Elaboración de mapas de riesgo </p> 
-                      </div>
-
-                      <div className='d-flex'>
-                          < BsFillArrowThroughHeartFill className=' fs-4 text-danger' />
-                          <p className='px-2 fs-5 text-white'> Elaboración de Layout de equipo de atención a emergencias </p> 
-                      </div>
+                      <ul className=' text-white list-unstyled'>
+                        <li className=' pt-2'>
+                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            Capacitaciones DC-03.
+                        </li>
+                        <li className=' pt-2'>
+                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            Programa de autogestión de seguridad y salud en el trabajo.
+                        </li>
+                        <li className=' pt-2'>
+                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            Atención a inspecciones.
+                        </li>
+                        <li className=' pt-2'>
+                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            Auditorias en seguridad y salud.
+                        </li>
+                        <li className=' pt-2'>
+                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            Contestación de emplazamientos.
+                        </li>
+                        <li className=' pt-2'>
+                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            Estudios ergonómicos (Actividades de carga manual, movimientos repetitivos, posturas forzadas, confort térmico).
+                        </li>
+                        <li className=' pt-2'>
+                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            Elaboración de mapas de riesgo.
+                        </li>
+                        <li className=' pt-2'>
+                            <span className=' text-danger fs-4'> <BsFillArrowThroughHeartFill /> </span>
+                            Elaboración de Layout de equipo de atención a emergencias.
+                        </li>
+                      </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
     <section>
+        <div className=' container'>
+            <div className=' row'>
+                <div className=' col-xl-12'>
+                    <h3 className=' text-center my-4'> Servicios </h3>
+                </div>
+
+                <div className=' row-cols-12'>
+                    <ul className='list-unstyled'>
+                        <li>
+                            <span className='fs-4'> <MdOutlineMiscellaneousServices /> </span>
+                             <span className=' fs-5'> <strong> Consultoría en seguridad e higiene en el trabajo: </strong> </span> Se trata de un servicio en el que se asesora a las empresas para que cumplan con las normas de seguridad e higiene establecidas por las autoridades. El servicio podría incluir la evaluación de los riesgos en el lugar de trabajo, la elaboración de planes de seguridad y salud, la capacitación del personal en temas de seguridad e higiene, entre otros aspectos. </li>
+
+                        <li className=' pt-1'>
+                            <span className='fs-4'> <MdOutlineMiscellaneousServices /> </span>
+                            <span className=' fs-5'><strong> Servicios de prevención y protección contra incendios: </strong></span>  Este servicio se enfoca en la prevención de incendios y en la protección de las instalaciones y el personal en caso de uno. Los trabajadores encargados de prestar este servicio deberán estar capacitados para identificar los riesgos de incendio, instalar sistemas de protección, realizar simulacros de evacuación y, en caso de un incendio, coordinar la atención de emergencias. </li>
+
+                        <li className=' pt-1'>
+                            <span className='fs-4'> <MdOutlineMiscellaneousServices /> </span>
+                            <span className=' fs-5'><strong>  Servicios de identificación y comunicación de peligros y riesgos por sustancias químicas peligrosas: </strong></span> Este servicio se enfoca en la identificación y la comunicación de los peligros y riesgos asociados con el manejo de sustancias químicas peligrosas en el lugar de trabajo. Los trabajadores encargados de prestar este servicio deberán estar capacitados para identificar los peligros y riesgos asociados con las sustancias químicas peligrosas, así como para desarrollar e implementar planes de comunicación y manejo de emergencias. </li>
+
+                        <li className=' pt-1'>
+                            <span className='fs-4'> <MdOutlineMiscellaneousServices /> </span>
+                            <span className=' fs-5'><strong> Servicios de protección y dispositivos de seguridad en la maquinaria y equipo: </strong></span>  Este servicio se enfoca en la evaluación de los riesgos asociados con el manejo de maquinaria y equipo en el lugar de trabajo, así como en la instalación y mantenimiento de dispositivos de seguridad para reducir los riesgos. Los trabajadores encargados de prestar este servicio deberán estar capacitados para identificar los riesgos asociados con la maquinaria y el equipo, así como para instalar y mantener los dispositivos de seguridad necesarios para reducir los riesgos a niveles aceptables.</li>
+
+                        <li  className=' pt-1'>
+                            <span className='fs-4'> <MdOutlineMiscellaneousServices /> </span>
+                            <span className=' fs-5'><strong>  Servicios de mantenimiento de instalaciones eléctricas: </strong></span> Este servicio se enfoca en la revisión y el mantenimiento de las instalaciones eléctricas para asegurar que cumplan con las normas de seguridad establecidas. Los trabajadores encargados de prestar este servicio deberán estar capacitados para identificar y corregir fallas en el sistema eléctrico y asegurar que se cumpla con la NOM-029-STPS-2011. </li>
+
+                    </ul>
+                </div>
+
+
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section className='securitynorm'>
         <div className=' container'>
             <div className=' row'>
                 <div className=' col-xl-12 py-5'>
@@ -130,72 +168,7 @@ function SeguridadySalud() {
     </section>
 
     
-    <section className=' text-center'>
-        <div className=' container'>
-                <div className=' row'>
-                    <div className=' col-md-12 text-center my-4'>
-                        <h2> Nuestros Otros Servicios </h2>
-                    </div>
-                    
-                    <div className='d-md-flex justify-content-center'>
-                        <div className=' col-xl-3 col-md-3 servicios'>
-                            <Link to={'/Muestreos_Analisis'} className=' text-decoration-none col-xl-12 px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Muestreo} alt="Muestreo" />
-                                <h3 className=' text-center'> Muestreos y Analisis </h3>
-                            </Link>
-                        </div>
-
-
-                        <div className=' col-xl-3 col-md-3 servicios'>
-                            <Link to={'/Seguridad_Salud'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Seguridad} alt="Seguridad y Salud" />
-                                <h3 className=' text-center px-5'> Seguridad y Salud en el trabajo </h3>
-                            </Link>
-                        </div>
-
-                        <div className=' col-xl-3 col-md-3 servicios'>
-                            <Link to={'/Recipientes_a_Presion'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Presion} alt="Presion" />
-                                <h3 className=' text-center px-5'>Recipientes sujetos a presion </h3>
-                            </Link>
-                        </div>
-
-
-                        <div className=' col-xl-3 col-md-3 servicios'>
-                            <Link to={'/ProteccionCivil'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Civil} alt="Proteccion civil" />
-                                <h3 className=' text-center'> Proteccion civil </h3>
-                            </Link>
-                        </div>
-                    </div>
-
-
-                    <div className='d-md-flex justify-content-center'>
-                        <div className=' col-xl-4 col-md-4 servicios'>
-                            <Link to={'/Ambiental'} className=' text-decoration-none col-xl-12 px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Ambientalfoto} alt="Ambiental" />
-                                <h3 className=' text-center'> Ambiental </h3>
-                            </Link>
-                        </div>
-
-
-                        <div className=' col-xl-4 col-md-4 servicios'>
-                            <Link to={'/proyectosyAmbiental'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Estudios} alt="Estudios y Proyectos" />
-                                <h3 className=' text-center px-2'> Estudios y Proyectos Ambientales </h3>
-                            </Link>
-                        </div>
-
-                        <div className=' col-xl-4 col-md-4 servicios'>
-                            <Link to={'/ServicioMedico'} className=' text-decoration-none col-xl-12  px-4'> 
-                                <img className="img-fluid rounded-circle my-2 mb-lg-0 mx-auto d-block" src={Proteccion} alt="Presion" />
-                                <h3 className=' text-center px-5'> Servicio medico </h3>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-      </section>
+    <Servicios />
            
     <Footer />
     

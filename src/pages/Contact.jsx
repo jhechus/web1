@@ -1,7 +1,10 @@
 import React from 'react'
 import Mapa from '../components/Mapa' 
-import { BsFacebook } from "react-icons/bs";
+import { BsFacebook, BsLinkedin, BsInstagram, BsTwitter } from "react-icons/bs";
+import { FaTiktok } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { TfiLinkedin } from "react-icons/tfi";
+
 
 import Footer from '../components/Footer';
 
@@ -19,24 +22,24 @@ function contact() {
                         </div>
                     </div>
                     <br />
-                    <div className="col-md-12 col-xl-6">
-                        <form action="/procesos/submit.php" method="post" className="my-form">
-                            <h4>Cotiza con nosotros. </h4>
+                    <div className="col-md-12 col-xl-6 formulario">
+                        <form action="https://formsubmit.co/jess.osm1412@gmail.com" method="POST" className="my-form">
+                            <h4 className=' text-center'>Cotiza con nosotros. </h4>
                             <br />
                             <div className="form-group pb-3">
-                                <label for="form-name"> Nombre</label>
+                                <label for="form-name"> Nombre : </label>
                                 <input type="name" name="name" className="form-control" id="form-name" placeholder="" />
                             </div>
                             <div className="form-group pb-3">
-                                <label for="form-email">Correo</label>
+                                <label for="form-email">Correo : </label>
                                 <input type="email" name="email" className="form-control" id="form-email" placeholder="" />
                             </div>
                             <div className="form-group pb-3">
-                                <label for="form-subject">Celular</label>
+                                <label for="form-subject">Celular : </label>
                                 <input type="tel" name="celular" className="form-control" id="form-subject" placeholder="" />
                             </div>
                             <div className="form-group pb-3">
-                                <label for="form-message">Tu mensaje:</label>
+                                <label for="form-message">Tu mensaje :</label>
                                 <textarea className="form-control" name="mensaje" id="form-message" placeholder=""></textarea>
                             </div>
                             
@@ -54,10 +57,10 @@ function contact() {
 
                 <br />
                 <div className="text-center">
-                    <a href="#" className=' text-decoration-none'><BsFacebook name="logo-facebook" className="social-icon" /> </a>
-                    <a href="#" className=' text-decoration-none'><BsFacebook name="logo-facebook" className="social-icon" /> </a>
-                    <a href="#" className=' text-decoration-none'><BsFacebook name="logo-facebook" className="social-icon" /> </a>
-                    <a href="#" className=' text-decoration-none'><BsFacebook name="logo-facebook" className="social-icon" /> </a>
+                    <a href="https://es-la.facebook.com/" className=' text-decoration-none'><BsFacebook name="logo-facebook" className="social-icon" /> </a>
+                    <a href="#" className=' text-decoration-none'><BsLinkedin name="logo-link" className="social-icon" /> </a>
+                    <a href="https://www.instagram.com/" className=' text-decoration-none'><BsInstagram name="logo-facebook" className="social-icon" /> </a>
+                    <a href="#" className=' text-decoration-none'><FaTiktok name="logo-facebook" className="social-icon" /> </a>
                 </div>
             </div>
         </div>

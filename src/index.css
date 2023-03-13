@@ -37,6 +37,10 @@ Inicio
   font-size: 80px;
 }
 
+.lassa .nameL{
+  color: #961293;
+}
+
 .lassa a{
   background-color: #c7b470;
   margin-bottom: 20px;
@@ -123,6 +127,11 @@ Seguridad y Salud
   padding-left: 550px;
 }
 
+.securitynorm h4{
+  color: #8064a2;
+  font-weight: 700;
+}
+
 @media (min-width: 750px) and (max-width: 1350px){
   .encabezadosys{
     padding-left: 250px ;
@@ -168,6 +177,15 @@ Nosotros
 
 */
 
+
+#nosotros h1{
+  color: #8064a2;
+}
+
+.MyV h2{
+  color: #961293;
+}
+
 #valores .allvalors{
     display: flex;
     justify-content: center;
@@ -206,6 +224,13 @@ Contacto
 
 */
 
+.formulario h4{
+  color: #8064a2;
+  font-size: 2.2rem;
+  font-weight: 600;
+  
+}
+
 input, select, option, textarea {
   width: 100%;
   padding: 10px 15px;
@@ -233,20 +258,27 @@ button {
   margin: 5px 0px;
   color: black;
   font-size: 16px;
+  font-weight: 650;
   letter-spacing: 1px;
   cursor: pointer;
   opacity: 0.7;
   transition: .5s;
+  background-color: #c7b470;
 }
 button:hover {
   opacity: 1;
-  background-color: #f9f7d3;
-  color: black;
+  background-color: #8064a2;
+  color: #c7b470;
 }
 
 .my-form {
   color: #060a01;
 }
+
+.my-form button{
+  border-radius: 15%;
+}
+
 .my-form .form-control {
   border-radius: 0;
 }
@@ -265,8 +297,8 @@ button:hover {
   text-align: center;
   width: 50px;
   height: 50px;
-  border: 2px solid #777;
-  border-radius: 50%;
+  border: 2px solid #777777;
+  border-radius: 30%;
   color: #777;
   margin: 5px;
 }
@@ -285,8 +317,20 @@ button:hover {
   .googlemap{
     width: 350px;
     height: 200px;
+    
+  }
+
+  .my-form h4 {
+    padding-top: 20px;
   }
 }
+
+@media (min-width: 750px) and (max-width: 1200px){
+  .my-form h4 {
+    padding-top: 20px;
+  }
+}
+
 
 /*
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -328,9 +372,6 @@ Ambiental
 Footer
 
 */
-
-
-
 
 .bgfot{
   background-color: #dddddd;

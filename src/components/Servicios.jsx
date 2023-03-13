@@ -16,7 +16,7 @@ function Servicios() {
             <div className=' container'>
                 <div className=' row'>
                     <div className=' col-md-12 text-center my-4 ourservice'>
-                        <h2> Nuestros Servicios </h2>
+                        <h2> Nuestros Otros Servicios </h2>
                     </div>
                     
                     <div className='d-md-flex justify-content-center'>
