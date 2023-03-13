@@ -6,11 +6,14 @@ import ftEambiental from '../images/estambiental.png'
 function EstudiosyProyectos() {
   return (
     <div>
-       <section className="card text-white bg-success my-1 py-4 text-center">
-        <div className="card-body">
-          <h2 className="text-white m-0"> Estudios y proyectos ambientales. </h2>
-        </div>
-      </section>
+
+      <div className='EyP'>
+        <section className="card text-white bgEyP my-1 py-4 text-center">
+          <div className="card-body">
+            <h2 className="text-white m-0"> Estudios y proyectos ambientales. </h2>
+          </div>
+        </section>
+      </div>
 
       <section>
         <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">

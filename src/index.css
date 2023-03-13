@@ -1,3 +1,11 @@
+.Laa{
+  color: #8064a2;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+
+
 .bgnav{
   background-color: #f9f7d3
   ;
@@ -114,6 +122,22 @@ header .lassabtn:hover{
   .servicios h3{
     font-size: 18px;
   }
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Muestreo y analisis
+
+*/
+
+#top .bgMyA{
+  background-color: #cbe7f1;
+}
+
+.bgMyA h2{
+  color: #8064a2;
 }
 
 /*
@@ -371,6 +395,10 @@ button:hover {
 Estudios y Proyectos Ambientales
 
 */
+
+.EyP .bgEyP{
+  background-color: #a9d08e;
+}
 
 @media (min-width: 1000px){
   .proyectos ul{

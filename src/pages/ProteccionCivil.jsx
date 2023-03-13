@@ -30,7 +30,7 @@ function ProteccionCivil() {
             <div className="col-lg-5"><img className="img-fluid rounded mb-4 mb-lg-0" src={ftproteccion} alt="..." /></div>
 
             <div className="col-lg-7">
-                <h4 className=' text-center'><strong>Laboratorio Analitico Ambiental, S.A de C.V. </strong> Tramita todo lo necesario para que <span className=' text-primary'> tu empresa este regularizada. </span></h4>
+                <h4 className=' text-center'><span className='Laa'><strong>Laboratorio Analitico Ambiental, S.A de C.V. </strong> </span> Tramita todo lo necesario para que <span className=' text-primary'> tu empresa este regularizada. </span></h4>
                 <br /> <br />
 
                 <h1 className="font-weight-light text-center "> Principales Servicios </h1>

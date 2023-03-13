@@ -9,9 +9,9 @@ function MuestreosyAnalisis() {
   return (
     <div>
       <div id='top'>
-        <section className="card text-white bg-info my-1 py-4 text-center">
+        <section className="card bgMyA my-1 py-4 text-center">
           <div className="card-body">
-            <h2 className="text-white m-0"> Muestreos y Analisis </h2>
+            <h2 className="m-0"> Muestreos y Analisis </h2>
           </div>
         </section>
       </div>
