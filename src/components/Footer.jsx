@@ -19,14 +19,14 @@ function Footer() {
             
             <div className="row mt-4 jesus">
                 
-                <div className="col-lg-4 col-md-12 mb-4 mb-md-0 justify-content-center text-center lab">
+                <div className="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center text-center lab">
                     <img src={Lassa} alt="" className=' my-3'/>
 
                     <h4 className=' text-center '> Laboratorio Analítico Ambiental <br /> S.A. de C.V. </h4>
                 </div>
                 
                 {/*Grid column*/}
-                <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div className="col-lg-6 col-md-12 mb-4 mb-md-0 py-2 contactanos">
                     <h5 className="text-uppercase mb-4 pb-1 text-center"> Contactanos. </h5>
 
 
@@ -35,7 +35,7 @@ function Footer() {
                         <label className="form-label" for="formControlLg">Search</label>
                         </div> */}
 
-                    <ul className="fa-ul list-unstyled px-4">
+                    <ul className="fa-ul list-unstyled ">
                         <li className="mb-3 ">
                             <span className="fa-li vane"><GoLocation/></span><span className="ms-2 vane"> P.º San Francisco 1, Jardines de Atizapan, 52975 </span>
                         </li>
@@ -48,13 +48,18 @@ function Footer() {
                             </span></a>
                         </li>
                         <li className="mb-3">
+                            <a href="mailto:contacto@laasamexico.com.mx " className=' text-decoration-none'><span className="fa-li vane"><AiOutlineMail /></span><span className="ms-2 vane">contacto@laasamexico.com.mx
+                            </span></a>
+                        </li>
+                        <li className="mb-3">
                             <a href="tel:+525513887032" className=' text-decoration-none'><span className="fa-li vane"><FiPhone/></span><span className="ms-2 vane"> 5513887032 </span></a>
                         </li>
                     </ul>
                 </div>
                 {/*Grid column*/}
 
-                {/*Grid column*/}
+                {/*
+                {/*Grid column}
                 <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
                     <h5 className="text-uppercase mb-4 text-center"> Horarios de Atencion</h5>
 
@@ -75,7 +80,8 @@ function Footer() {
                         </tbody>
                     </table>
                 </div>
-                {/*Grid column*/}
+                {/*Grid column}
+                */}
             </div>
             
             </div>

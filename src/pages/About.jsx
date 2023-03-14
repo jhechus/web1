@@ -30,7 +30,7 @@ function About() {
                             <h2 className="fw-bolder"> Nuestra Visión </h2>
                             <p className="lead fw-normal text-muted mb-0"><span className='Laa'> Laboratorio Analítico Ambiental, S.A. de C.V. </span> busca convertirse en un proveedor confiable para cada uno de nuestros clientes, cumpliendo con los desafíos que se nos presenten mediante equipos de vanguardia, personal comprometido con las actividades de la organización y capacitado en las normativas que se requieran. Siempre trabajando con honestidad y responsabilidad para cada uno de los interesados.
                             <br /> <br /> 
-                            Formar vínculos de comunicación con las empresas para que tengan la confianza de buscar nuestro asesoramiento y contribuir a un beneficio para su empresa. Buscamos la mejora continua en nuestras actividades y nuestro sistema de gestión.</p>
+                            Formar vínculos de comunicación con su organización para que tengan la confianza de buscar nuestro asesoramiento y contribuir a un beneficio para su empresa. Buscamos la mejora continua en nuestras actividades y nuestro sistema de gestión.</p>
                         </div>
                     </div>
                 </div>

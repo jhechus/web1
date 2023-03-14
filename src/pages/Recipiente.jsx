@@ -13,11 +13,13 @@ function Recipiente() {
             <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src={presion} alt="..." /></div>
 
             <div className="col-lg-6">
-              <p className=' fs-6'> <strong> Cualquier recipiente sujeto a presión representa un peligro potencial debido a la alta presión la cual opera. </strong>
-                <br /> <br />
+              <p className=' fs-6'>
+
+              En <span className='Laa'> Laboratorio Analitico Ambiental, S.A DE C.V. </span> contamos con la experiencia para asistir sus requerimientos de seguridad para el cumplimiento normativo en cualquier fase en el ciclo de vida de su equipo, desde el diseño hasta las inspecciones en servicio y mantenimiento. 
+              <br /> <br />
               La inspección y verificación de Recipientes Sujetos a Presión implica una serie de pruebas realizadas a recipientes sujetos a presión para encontrar puntos críticos de fuga que pudieran potencialmente conducir a reacciones peligrosas y no controlables.
-                <br /> <br />
-              En <span className='Laa'> Laboratorio Analitico Ambiental, S.A DE C.V. </span> contamos con la experiencia para asistir sus requerimientos de seguridad para el cumplimiento normativo en cualquier fase en el ciclo de vida de su equipo, desde el diseño hasta las inspecciones en servicio y mantenimiento. </p>
+                
+              </p>
 
                     <br />  <br />
                 <h3 className=' text-danger'> Cumplimiento al 100% de la 'NOM-020-STPS-2011' </h3>

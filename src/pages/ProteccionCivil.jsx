@@ -2,6 +2,7 @@ import React from 'react'
 
 import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
+import { Link } from 'react-router-dom'
 
 import ftproteccion from '../images/pc.png'
 
@@ -16,7 +17,7 @@ function ProteccionCivil() {
                         <h1 className="display-5 fw-bolder text-white mb-2 text-center"> Proteccion civil </h1>
                         <p className="lead fw-normal text-white mb-4 text-center"><strong> NO ARRIESGUES TU NEGOCIO O TU OBRA, EVITA LA CLAUSURA CON TUS TRAMITES ANTE PROTECCIÓN CIVIL VIGENTES Y AUTORIZADOS. </strong></p>
                         <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
-                            <a className="btn btn-primary btn-lg px-4 me-sm-3" href="#features"> Contactanos </a>
+                            <Link className="btn btn-primary btn-lg px-4 me-sm-3" to={'/Contact'}  > Contactanos </Link>
                         </div>
                     </div>
                 </div>

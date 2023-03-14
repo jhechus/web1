@@ -16,12 +16,14 @@ import Acreditaciones from "./pages/Acreditaciones"
 import Recipiente from "./pages/Recipiente"
 import MuestreosyAnalisis from "./pages/MuestreosyAnalisis"
 import SeguridadySalud from "./pages/SeguridadySalud"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
 
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route 
             path="/"

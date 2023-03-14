@@ -69,13 +69,10 @@ function EstudiosyProyectos() {
               <h4 className=" text-center"> Auditorias </h4>
 
               <ul>
-                <li> Diseño, fabricación y modificación de chimeneas. </li>
-                <li> Dictamen estructural. </li>
-                <li> Dictamen de instalaciones eléctricas. </li>
-                <li> Diagrama unifilar. </li>
-                <li> Dictamen de instalaciones de gas natural y LP. </li>
-                <li> Constancia de seguridad estructural. </li>
-                <li> Vo.Bo. de seguridad y operación. </li>
+                <li> Diagnostico ambiental.  </li>
+                <li> Auditoría ambiental estatal (PROPAEM). </li>
+                <li> Auditoria para certificación de industria limpia. </li>
+                <li> Verificación de cumplimiento. </li>
               </ul>
             </div>
 

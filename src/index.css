@@ -470,3 +470,9 @@ Footer
 .table-row td {
   border-bottom: 1px solid black;
 }
+
+@media (min-width: 1100px){
+  .contactanos ul{
+    padding-left: 120px;
+  }
+}
