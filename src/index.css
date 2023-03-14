@@ -1,10 +1,30 @@
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Estilos generales
+
+*/
+
+@media (min-width: 550px){
+  .justify{
+    text-align: justify;
+  }
+}
+
 .Laa{
   color: #8064a2;
   font-weight: 600;
   font-size: 22px;
 }
 
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
 
+Navbar
+
+*/
 
 .bgnav{
   background-color: #f9f7d3
@@ -132,12 +152,13 @@ Muestreo y analisis
 
 */
 
-#top .bgMyA{
-  background-color: #cbe7f1;
+.cartaA{
+  width: 18rem;
 }
 
-.bgMyA h2{
-  color: #8064a2;
+.cardsA {
+  padding: 200px 200px;
+  gap: 140px ;
 }
 
 /*
@@ -269,6 +290,52 @@ Nosotros
   padding-left: 10px;
   padding-right: 20px;
   text-align: center;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Fuentes Fijas
+
+*/
+
+.FJservice{
+  padding: 10px 120px;
+}
+
+@media(max-width: 800px) {
+  .FJservice{
+    padding: 10px 0px;
+  }
+}
+
+.images .humo{
+  position: absolute;
+  padding-left: 1000px;
+  margin-top: -45px;
+  z-index: -1;
+}
+
+.images .humo2{
+  position: absolute;
+  padding-left: 1400px;
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.images .humo3{
+  position: absolute;
+  padding-left: 490px;
+  margin-top: 70px;
+  z-index: 1;
+}
+
+.images .humo4{
+  position: absolute;
+  padding-left: 0px;
+  margin-top: -80px;
+  z-index: -1;
 }
 
 
@@ -423,6 +490,19 @@ Proteccion civil
   background-image: url(/src/images/incendio.png);
 }
 
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Recipientes a presion
+
+*/
+
+.Pservice li{
+  font-size: 18px;
+  font-weight: 500;
+}
 
 
 /*

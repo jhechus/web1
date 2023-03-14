@@ -18,7 +18,7 @@ function Inicio2() {
                     <div className="col-lg-6">
                         <div className="lassa text-center my-1 logoi">
                             <img src={Logo} alt="Lassa" />
-                            <p className="lead text-black fw-normal mb-4"> <span className='nameL'> <strong>Laboratorio Analítico Ambiental, S.A de C.V. </strong> </span> ofrece soluciones integrales tanto a grandes industrias como a pequeños negocios en materia de: medio ambiente, protección civil, seguridad y salud en el trabajo; cumpliendo con la normatividad vigente y estándares internacionales. </p>
+                            <p className="lead text-black fw-normal mb-4 justify"> <span className='nameL'> <strong>Laboratorio Analítico Ambiental, S.A de C.V. </strong> </span> ofrece soluciones integrales tanto a grandes industrias como a pequeños negocios en materia de: medio ambiente, protección civil, seguridad y salud en el trabajo; cumpliendo con la normatividad vigente y estándares internacionales. </p>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                                 <a className="lassabtn btn btn-lg px-4 me-sm-3" href="tel:+525551614373"> Llámanos <BiPhoneCall /> </a>
 
@@ -38,7 +38,7 @@ function Inicio2() {
                 <div className="normas row gx-5">
 
 
-                    <div className="col-lg-4 mb-5 mb-lg-0">
+                    <div className="col-lg-6 mb-5 mb-lg-0">
                         <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i className="bi bi-collection"></i></div>
                         
                         <Link className="text-decoration-none" to={'/Muestreos_Analisis'}> <h2 className="h4 fw-bolder text-center"> Muestreos & Análisis Ambientales. </h2> </Link> 
@@ -132,7 +132,7 @@ function Inicio2() {
 
 
 
-                    <div className="col-lg-4 mb-5 mb-lg-0">
+                    <div className="col-lg-6 mb-5 mb-lg-0">
                         <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i className="bi bi-building"></i></div>
 
                         <Link className="text-decoration-none" to={'/Seguridad_Salud'}><h2 className="h4 fw-bolder text-center"> Seguridad, Salud & Organización en el trabajo </h2> </Link>
@@ -229,7 +229,7 @@ function Inicio2() {
 
 
 
-                    <div className="col-lg-4">
+                   {/* <div className="col-lg-4">
                         <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i className="bi bi-toggles2"></i></div>
 
                         <Link className="text-decoration-none" to={'/About'}><h2 className="h4 fw-bolder text-center"> ¿Porque Lassa? </h2> </Link>
@@ -246,7 +246,8 @@ function Inicio2() {
                             <p className='px-2'>Saber más... </p> 
                             <ion-icon name="arrow-forward-outline"></ion-icon>
                         </Link>
-                    </div>
+                    </div> */}
+
                 </div>
             </div>
         </section>

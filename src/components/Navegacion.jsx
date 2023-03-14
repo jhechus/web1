@@ -14,7 +14,7 @@ function Navegacion() {
       <Navbar className='bgnav' expand="lg">
         <Container>
         <div className="d-flex justify-content-between w-100 navl">
-          <Navbar.Brand as={Link} to='/' className='Logo d-flex'> <img  src={Logo} alt="Logo" /> <p className=' fs-6 mt-3 mx-2 d-none d-md-block'> Laboratorio Analítico Ambiental S.A. de C.V. </p> </Navbar.Brand>
+          <Navbar.Brand as={Link} to='/' className='Logo d-flex'> <img  src={Logo} alt="Logo" /> <p className=' fs-6 mt-3 mx-2 d-none d-md-block'> Laboratorio Analítico Ambiental, S.A. de C.V. </p> </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>
           <Navbar.Collapse id="basic-navbar-nav">
@@ -22,14 +22,20 @@ function Navegacion() {
               <Nav.Link as={Link} to='/'> Inicio </Nav.Link>
               <Nav.Link as={Link} to='/About'> Nosotros </Nav.Link>
               <NavDropdown title="Servicios" id="basic-nav-dropdown">
-                <NavDropdown.Item as={Link} to='/Muestreos_Analisis'> Muestreos &amp; Analisis Ambientales </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to='/Seguridad_Salud'> Seguridad &amp; Salud en el trabajo </NavDropdown.Item>
+                {/* <NavDropdown.Item as={Link} to='/Muestreos_Analisis   '> Muestreos &amp; Analisis Ambientales </NavDropdown.Item> */}
+                <NavDropdown.Item as={Link}     to='/Seguridad_Salud      '> Seguridad &amp; Salud en el trabajo  </NavDropdown.Item>
                 { /*<NavDropdown.Divider /> */}
-                <NavDropdown.Item as={Link} to='/Recipientes_a_Presion'> Recipientes Sujetos a Presion </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to='/ProteccionCivil'> Proteccion Civil </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to='/Ambiental'> Ambiental </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to='/proyectosyAmbiental'> Estudios & Proyectos Ambientales </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to='/ServicioMedico'> Servicio Medico </NavDropdown.Item>
+                <NavDropdown.Item as={Link}     to='/Recipientes_a_Presion'> Recipientes Sujetos a Presión        </NavDropdown.Item>
+                <NavDropdown.Item as={Link}     to='/ProteccionCivil      '> Protección Civil                     </NavDropdown.Item>
+                <NavDropdown.Item as={Link}     to='/Ambiental            '> Ambiental                            </NavDropdown.Item>
+                <NavDropdown.Item as={Link}     to='/proyectosyAmbiental  '> Estudios & Proyectos Ambientales     </NavDropdown.Item>
+                <NavDropdown.Item as={Link}     to='/ServicioMedico       '> Servicio Médico                      </NavDropdown.Item>
+                  <NavDropdown title="Muestreos & Análisis" id="basic-nav-dropdown" className=' px-3'>
+                    <NavDropdown.Item as={Link} to='/Agua                 '> Agua                                 </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to='/Agua_Potable         '> Agua potable                         </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to='/Alimentos            '> Alimentos                            </NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to='/Fuentes_Fijas        '> Fuentes Fijas                        </NavDropdown.Item>
+                  </NavDropdown>
               </NavDropdown>
               <Nav.Link as={Link} to='/Blog' className=' visually-hidden'> Blog </Nav.Link>
               <Nav.Link as={Link} to='/Acreditaciones' className=' visually-hidden'> Acreditaciones </Nav.Link>

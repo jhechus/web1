@@ -76,7 +76,7 @@ function ServicioMedico() {
               <div className='col-md-3 col-sm-6'>
                 <img className="img-fluid rounded mb-4 mb-lg-0" src={ruidos} alt="..." />
                 <h6 className=' py-3'> PROGRAMA DE CONSERVACIÓN DE LA AUDICIÓN. </h6>
-                <p className=' px-3'> PROGRAMA DE CONSERVACIÓN DE LA AUDICIÓN. Dirigido a prevenir la aparición de efectos en la salud auditiva de los trabajadores por exposición al ruido ocupacional. </p>
+                <p className=' px-3 '> PROGRAMA DE CONSERVACIÓN DE LA AUDICIÓN. Dirigido a prevenir la aparición de efectos en la salud auditiva de los trabajadores por exposición al ruido ocupacional. </p>
               </div>
 
               <div className='col-md-3 col-sm-6'>

@@ -17,6 +17,10 @@ import Recipiente from "./pages/Recipiente"
 import MuestreosyAnalisis from "./pages/MuestreosyAnalisis"
 import SeguridadySalud from "./pages/SeguridadySalud"
 import ScrollToTop from "./components/ScrollToTop"
+import Agua from './pages/Agua'
+import AguaPotable from './pages/AguaPotable'
+import Alimentos from './pages/Alimentos'
+import FuentesFijas from './pages/FuentesFijas'
 
 function App() {
 
@@ -41,6 +45,10 @@ function App() {
             <Route path="ServicioMedico"        element={ <ServicioMedico    /> } /> 
             <Route path="Blog"                  element={ <Blog              /> } />
             <Route path="Acreditaciones"        element={ <Acreditaciones    /> } />
+            <Route path="Agua"                  element={ <Agua              /> } />
+            <Route path="Agua_Potable"          element={ <AguaPotable       /> } />
+            <Route path="Alimentos"             element={ <Alimentos         /> } />
+            <Route path="Fuentes_Fijas"         element={ <FuentesFijas      /> } />
 
           </Route>
         </Routes>

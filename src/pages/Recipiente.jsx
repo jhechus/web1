@@ -13,7 +13,7 @@ function Recipiente() {
             <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src={presion} alt="..." /></div>
 
             <div className="col-lg-6">
-              <p className=' fs-6'>
+              <p className=' fs-6 justify'>
 
               En <span className='Laa'> Laboratorio Analitico Ambiental, S.A DE C.V. </span> contamos con la experiencia para asistir sus requerimientos de seguridad para el cumplimiento normativo en cualquier fase en el ciclo de vida de su equipo, desde el diseño hasta las inspecciones en servicio y mantenimiento. 
               <br /> <br />
@@ -35,21 +35,23 @@ function Recipiente() {
 
                 <div className=' container'> 
                   <div className=' row'>
-                    <div className='col-md-6 col-lg-6 '>
+                    <div className='col-md-6 col-lg-6 Pservice'>
                       <ul>
-                        <li className=' fs-5'> Ingreso ante STPS. </li>
-                        <li className=' fs-5'> Dictamen Unidad de Verificación. </li>
-                        <li className=' fs-5'> Capacitación con Constancia DC3. </li>
-                        <li className=' fs-5'> Pruebas no destructivas. </li>
+                        <li > Pruebas de presión o exámenes no destructivos. </li>
+                        <li > Bitácoras. </li>
+                        <li > Capacitación con Constancia DC-03. </li>
+                        <li > Pruebas no destructivas. </li>
+                        <li > Obtención de la autorización de funcionamiento de la Secretaría de Trabajo y Prevención Social. </li>
                       </ul>
                     </div>
 
-                    <div className='col-md-6 col-lg-6 '>
+                    <div className='col-md-6 col-lg-6 Pservice'>
                       <ul>
-                        <li className=' fs-5'> Ingreso ante STPS. </li>
-                        <li className=' fs-5'> Dictamen Unidad de Verificación. </li>
-                        <li className=' fs-5'> Capacitación con Constancia DC3. </li>
-                        <li className=' fs-5'> Pruebas no destructivas. </li>
+                        <li > Plano y memorias de calculo. </li>
+                        <li > Expediente. </li>
+                        <li > Procedimientos. </li>
+                        <li > Dictamen por unidad de inspección. </li>
+                        <li >  Válvulas. </li>
                       </ul>
                     </div>
                   </div>
