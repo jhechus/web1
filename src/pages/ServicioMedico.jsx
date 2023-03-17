@@ -23,7 +23,7 @@ function ServicioMedico() {
             </section>
           </div> 
 
-        <section>
+        <section className='doctor'>
           <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
               <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src={ftdoctor} alt="..." /></div>
               <div className="col-lg-6">

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
 
 import presion from '../images/recipiente.png'
+import { TbGauge } from "react-icons/tb";
 
 function Recipiente() {
   return (
@@ -23,11 +24,11 @@ function Recipiente() {
 
                     <br />  <br />
                 <h3 className=' text-danger'> Cumplimiento al 100% de la 'NOM-020-STPS-2011' </h3>
-                <ul>
-                  <li className=' fs-4'> Recipientes sujetos a presion </li>
-                  <li className=' fs-4'> Generadores de vapor (Calderas) </li>
-                  <li className=' fs-4'> Recipientes criogénicos </li>
-                  <li className=' fs-4'> Condiciones de seguridad </li>
+                <ul className=' list-unstyled'>
+                  <li className=' fs-4'><span> <TbGauge/> </span> Recipientes sujetos a presion </li>
+                  <li className=' fs-4'><span> <TbGauge/> </span> Generadores de vapor (Calderas) </li>
+                  <li className=' fs-4'><span> <TbGauge/> </span> Recipientes criogénicos </li>
+                  <li className=' fs-4'><span> <TbGauge/> </span> Condiciones de seguridad </li>
                 </ul>
                 <br /> 
 
@@ -36,22 +37,22 @@ function Recipiente() {
                 <div className=' container'> 
                   <div className=' row'>
                     <div className='col-md-6 col-lg-6 Pservice'>
-                      <ul>
-                        <li > Pruebas de presión o exámenes no destructivos. </li>
-                        <li > Bitácoras. </li>
-                        <li > Capacitación con Constancia DC-03. </li>
-                        <li > Pruebas no destructivas. </li>
-                        <li > Obtención de la autorización de funcionamiento de la Secretaría de Trabajo y Prevención Social. </li>
+                      <ul className=' list-unstyled'>
+                        <li ><span> <TbGauge/> </span> Pruebas de presión o exámenes no destructivos. </li>
+                        <li ><span> <TbGauge/> </span> Bitácoras. </li>
+                        <li ><span> <TbGauge/> </span> Capacitación con Constancia DC-03. </li>
+                        <li ><span> <TbGauge/> </span> Pruebas no destructivas. </li>
+                        <li ><span> <TbGauge/> </span> Obtención de la autorización de funcionamiento de la Secretaría de Trabajo y Prevención Social. </li>
                       </ul>
                     </div>
 
                     <div className='col-md-6 col-lg-6 Pservice'>
-                      <ul>
-                        <li > Plano y memorias de calculo. </li>
-                        <li > Expediente. </li>
-                        <li > Procedimientos. </li>
-                        <li > Dictamen por unidad de inspección. </li>
-                        <li >  Válvulas. </li>
+                      <ul className=' list-unstyled'>
+                        <li ><span> <TbGauge/> </span> Plano y memorias de calculo. </li>
+                        <li ><span> <TbGauge/> </span> Expediente. </li>
+                        <li ><span> <TbGauge/> </span> Procedimientos. </li>
+                        <li ><span> <TbGauge/> </span> Dictamen por unidad de inspección. </li>
+                        <li ><span> <TbGauge/> </span>  Válvulas. </li>
                       </ul>
                     </div>
                   </div>

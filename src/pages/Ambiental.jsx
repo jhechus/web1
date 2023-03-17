@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
 
 import ftambiental from '../images/aambiental.png'
+import { GiThreeLeaves } from 'react-icons/gi'
 
 function Ambiental() {
   return (
@@ -24,14 +25,15 @@ function Ambiental() {
 
                 <h1 className="font-weight-light text-center "> Principales Servicios </h1>
 
-                <ul className=' py-4'>
-                  <li><strong className='px-1'> Agua- </strong> Toma de muestras y análisis para la evaluación de contaminantes regulados en la normatividad nacional, descargados a bienes nacionales, sistemas de alcantarillado, aguas residuales tratadas.</li>
-                  <li><strong className='px-1'> Aire- </strong> Toma de muestras y análisis de partículas suspendidas, gases, compuestos orgánicos etc., emitidos por fuentes fijas de emisión. </li>
-                  <li><strong className='px-1'> Ruido- </strong> Medición directa y evaluación de la emisión de ruido a la colindancia generada por fuentes estacionarias de las industrias hacia su entorno. </li>
-                  <li> licencias Ambientales Federales, Municipales y de Ciudad de México. </li>
-                  <li> Diagnosticos Ambientales. </li>
-                  <li> Auditoria para certificacion de industria limpia. </li>
-                  <li> Auditoria ambiental estatal (PROPAEM) </li>
+                <ul className=' py-4 list-unstyled'>
+                  <li className=' fw-bolder' ><span> <GiThreeLeaves /> </span> Minimizar el impacto de las empresas sobre el medioambiente, realizar auditorías y conocer la legislación de cada país sobre el medioambiente para aplicarlas correctamente. </li>
+                  <li className=' fw-bolder'><span> <GiThreeLeaves /> </span> Análisis de los datos ambientales. </li>
+                  <li className=' fw-bolder'><span> <GiThreeLeaves /> </span> Identificar y analizar los impactos que las empresas pueden generar sobre el medioambiente. Incluyendo vertidos de aguas contaminadas, emisiones de gases contaminantes a la atmósfera, contaminación del suelo, etc. </li>
+                  <li className=' fw-bolder'><span> <GiThreeLeaves /> </span> Establecer estrategias para prevenir los riesgos e impactos y proponer soluciones a estos problemas ambientales. </li>
+                  <li className=' fw-bolder'><span> <GiThreeLeaves /> </span> Ayudar a definir las políticas ambientales de la empresa acordes a los requisitos de la norma, la legislación propia del país y la Ética Ambiental. </li>
+                  <li className=' fw-bolder'><span> <GiThreeLeaves /> </span> Incentivar la práctica de buenos comportamientos ambientales en la empresa. </li>
+                  <li className=' fw-bolder'><span> <GiThreeLeaves /> </span> Conocer y evaluar los sistemas de auditoría y de impactos ambientales de la empresa, así como los requisitos técnicos y legales que implica. </li>
+                  <li className=' fw-bolder'><span> <GiThreeLeaves /> </span> Dominar tanto las certificaciones nacionales como internacionales en cuanto a las normativas medioambientales para poder implementar correctamente los Sistemas de Gestión Ambiental y evaluar las estrategias ambientales. </li>
                 </ul>
             </div>
         </div>

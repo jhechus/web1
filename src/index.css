@@ -156,10 +156,21 @@ Muestreo y analisis
   width: 18rem;
 }
 
-.cardsA {
-  padding: 200px 200px;
-  gap: 140px ;
+.cartaA img{
+  height: 180px;
 }
+
+.cardsA {
+  padding: 10px 10px;
+  gap: 5px ;
+}
+
+@media (max-width: 549px){
+  .cardsA{
+    padding: 0 40px;
+  }
+}
+
 
 /*
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -239,6 +250,11 @@ Servicio medico
 
 .covid p{
   margin-top: -15px;
+}
+
+.doctor img{
+  width: 700px;
+  object-fit: cover;
 }
 
 

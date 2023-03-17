@@ -5,6 +5,7 @@ import Servicios from '../components/Servicios'
 import { Link } from 'react-router-dom'
 
 import ftproteccion from '../images/pc.png'
+import { ImFire } from "react-icons/im";
 
 function ProteccionCivil() {
   return (
@@ -36,17 +37,17 @@ function ProteccionCivil() {
 
                 <h1 className="font-weight-light text-center "> Principales Servicios </h1>
 
-                <ul className=' py-4'>
-                  <li className=' fw-semibold'> Estudios de vulnerabilidad y riesgo. </li>
-                  <li className=' fw-semibold'> Elaboración de Programa Interno de Protección Civil. </li>
-                  <li className=' fw-semibold'> Elaboración de Programa Específico de Protección Civil. </li>
-                  <li className=' fw-semibold'> Elaboración de planos de identificación de equipo de emergencia. </li>
-                  <li className=' fw-semibold'> Asesoría y evaluación de simulacros. </li>
-                  <li className=' fw-semibold'> Carta de corresponsabilidad. </li>
-                  <li className=' fw-semibold'> Manejo de sustancias peligrosas. </li>
-                  <li className=' fw-semibold'> Inducción a la protección civil. </li>
-                  <li className=' fw-semibold'> Bitácoras de revisión de extintores y equipos. </li>
-                  <li className=' fw-semibold'> Formación de brigadas. </li>
+                <ul className=' py-4 list-unstyled'>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Estudios de vulnerabilidad y riesgo. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Elaboración de Programa Interno de Protección Civil. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Elaboración de Programa Específico de Protección Civil. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Elaboración de planos de identificación de equipo de emergencia. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Asesoría y evaluación de simulacros. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Carta de corresponsabilidad. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Manejo de sustancias peligrosas. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Inducción a la protección civil. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Bitácoras de revisión de extintores y equipos. </li>
+                  <li className=' fw-semibold'><span> <ImFire/> </span> Formación de brigadas. </li>
                 </ul>
             </div>
         </div>
