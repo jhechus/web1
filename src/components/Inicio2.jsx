@@ -5,6 +5,7 @@ import Logo from '../images/logoo.png'
 
 import { FaSeedling } from "react-icons/fa";
 import { BiPhoneCall } from "react-icons/bi";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 import Footer from './Footer'
 import Servicios from './Servicios'
@@ -124,9 +125,9 @@ function Inicio2() {
                         </div>
                         
                         
-                        <Link className="text-decoration-none d-flex flecha" to='/Muestreos_Analisis'>
-                            <p className='px-2'>Saber más... </p> 
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <Link className="text-decoration-none d-flex flecha" to={'/Seguridad_Salud'}>
+                            <p className='px-2'>Saber más...  <span className=' fs-4'> < MdOutlineKeyboardDoubleArrowRight /> </span> </p>
+                            
                         </Link>
                     </div>
 
@@ -222,8 +223,8 @@ function Inicio2() {
                         <p> Servicios preventivos de seguridad y salud en el trabajo. </p>
 
                         <Link className="text-decoration-none d-flex flecha" to={'/Seguridad_Salud'}>
-                            <p className='px-2'>Saber más... </p> 
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            <p className='px-2'>Saber más...  <span className=' fs-4'> < MdOutlineKeyboardDoubleArrowRight /> </span> </p>
+                            
                         </Link>
                     </div>
 

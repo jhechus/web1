@@ -102,7 +102,7 @@ Inicio
 }
 
 .normas .flecha p{
-  margin-top: -6px;
+  margin-top: -20px;
 }
 
 .normas .check p{
@@ -163,6 +163,21 @@ Muestreo y analisis
 .cardsA {
   padding: 10px 10px;
   gap: 5px ;
+}
+
+.cardsA .cartaA {
+  background-color: #cbe7f1;
+}
+
+.cardsA .btncolor{
+  color: black;
+  background-color: #f9f7d3;
+}
+
+.cardsA .btncolor:hover{
+  color: #f9f7d3;
+  background-color: #8064a2;
+  transition: .5s;
 }
 
 @media (max-width: 549px){
