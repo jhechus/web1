@@ -68,7 +68,7 @@ function SeguridadySalud() {
                     <h3 className=' text-center my-4'> Servicios </h3>
                 </div>
 
-                <div className=' row-cols-12'>
+                <div className=' row-cols-12 justify'>
                     <ul className='list-unstyled'>
                         <li>
                             <span className='fs-4'> <MdOutlineMiscellaneousServices /> </span>
@@ -85,10 +85,6 @@ function SeguridadySalud() {
                         <li className=' pt-1'>
                             <span className='fs-4'> <MdOutlineMiscellaneousServices /> </span>
                             <span className=' fs-5'><strong> Servicios de protección y dispositivos de seguridad en la maquinaria y equipo: </strong></span>  Este servicio se enfoca en la evaluación de los riesgos asociados con el manejo de maquinaria y equipo en el lugar de trabajo, así como en la instalación y mantenimiento de dispositivos de seguridad para reducir los riesgos. Los trabajadores encargados de prestar este servicio deberán estar capacitados para identificar los riesgos asociados con la maquinaria y el equipo, así como para instalar y mantener los dispositivos de seguridad necesarios para reducir los riesgos a niveles aceptables.</li>
-
-                        <li  className=' pt-1'>
-                            <span className='fs-4'> <MdOutlineMiscellaneousServices /> </span>
-                            <span className=' fs-5'><strong>  Servicios de mantenimiento de instalaciones eléctricas: </strong></span> Este servicio se enfoca en la revisión y el mantenimiento de las instalaciones eléctricas para asegurar que cumplan con las normas de seguridad establecidas. Los trabajadores encargados de prestar este servicio deberán estar capacitados para identificar y corregir fallas en el sistema eléctrico y asegurar que se cumpla con la NOM-029-STPS-2011. </li>
 
                     </ul>
                 </div>
@@ -111,7 +107,7 @@ function SeguridadySalud() {
                 </div>
 
                 <div className='col-lg-4'>
-                    <h4 className=' px-5'> Normas de seguridad </h4>
+                    <h4 className=' px-5'> Normas de seguridad. </h4>
 
                     <ul>
                         <li><strong> NOM-001-STPS-2008.- </strong> Edificios, locales, instalaciones. </li>
@@ -130,9 +126,9 @@ function SeguridadySalud() {
                 </div>
 
                 <div className='col-lg-4'>
-                    <h4 className=' px-5'> Normas de salud </h4>
+                    <h4 className=' px-5'> Normas de salud. </h4>
                         <ul>
-                            <li><strong> NOM-010-STPS-2014.- </strong> Agentes químicos contaminantes </li>
+                            <li><strong> NOM-010-STPS-2014.- </strong> Agentes químicos contaminantes. </li>
                             <li><strong> NOM-011-STPS-2001.- </strong>Ruido laboral. </li>
                             <li><strong> NOM-013-STPS-1993.- </strong>Radiaciones electromagnéticas no ionizantes. </li>
                             <li><strong> NOM-015-STPS-2001.- </strong>Condiciones térmicas elevadas o abatidas. </li>
@@ -145,7 +141,7 @@ function SeguridadySalud() {
 
 
                 <div className='col-lg-4'>
-                    <h4 className=' px-5'> Normas de organización </h4>
+                    <h4 className=' px-5'> Normas de organización. </h4>
                     <ul>
                         <li><strong> NOM-017-STPS-2008.- </strong >Equipo de protección personal. </li>
                         <li><strong>  NOM-018-STPS-2015.- </strong> Sistema armonizado para la  identificación y comunicación de peligros y riesgos por  sustancias químicas peligrosas. </li>

@@ -12,6 +12,14 @@ function FuentesFijas() {
   return (
     <div>
 
+      <div id='Fj'>
+        <section className="card bgFj my-1 py-4 text-center">
+          <div className="card-body">
+            <h2 className="m-0"> Muestreos y Analisis de Fuentes Fijas </h2>
+          </div>
+        </section>
+      </div>
+
       <section className="images d-none d-xl-block">
         <img className="humo" src={humo} alt="" />
         <img className="humo2" src={humo2} alt="" />
@@ -21,11 +29,9 @@ function FuentesFijas() {
 
         <section>
           <div className=' container'>
-            <div className=' col-12'>
-              <h2 className=' text-center pt-5'> Fuentes Fijas </h2>
-
+            
               <div className="col-xl-12 col-xxl-12 text-center"><img className="img-fluid rounded-3 my-5" src={ftFuentesFijas} alt="..." /></div>
-            </div>
+            
 
             <div className=' col-12'>
               <h4 className=' text-center '> Principales servicios </h4>

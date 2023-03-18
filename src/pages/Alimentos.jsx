@@ -7,8 +7,8 @@ import { IoFastFoodOutline } from "react-icons/io5";
 function Alimentos() {
   return (
     <div>
-    <div id='top'>
-      <section className="card bgMyA my-1 py-4 text-center">
+    <div id='Alimentos'>
+      <section className="card bgAlimentos my-1 py-4 text-center">
         <div className="card-body">
           <h2 className="m-0"> Muestreos y Análisis de Alimentos </h2>
         </div>

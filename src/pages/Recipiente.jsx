@@ -25,10 +25,10 @@ function Recipiente() {
                     <br />  <br />
                 <h3 className=' text-danger'> Cumplimiento al 100% de la 'NOM-020-STPS-2011' </h3>
                 <ul className=' list-unstyled'>
-                  <li className=' fs-4'><span> <TbGauge/> </span> Recipientes sujetos a presion </li>
-                  <li className=' fs-4'><span> <TbGauge/> </span> Generadores de vapor (Calderas) </li>
-                  <li className=' fs-4'><span> <TbGauge/> </span> Recipientes criogénicos </li>
-                  <li className=' fs-4'><span> <TbGauge/> </span> Condiciones de seguridad </li>
+                  <li className=' fs-4'><span> <TbGauge/> </span> Recipientes sujetos a presion. </li>
+                  <li className=' fs-4'><span> <TbGauge/> </span> Generadores de vapor (Calderas). </li>
+                  <li className=' fs-4'><span> <TbGauge/> </span> Recipientes criogénicos. </li>
+                  <li className=' fs-4'><span> <TbGauge/> </span> Condiciones de seguridad. </li>
                 </ul>
                 <br /> 
 

@@ -3,12 +3,13 @@ import Footer from '../components/Footer'
 import Servicios from '../components/Servicios'
 
 import fotoMyA from '../images/muestreoyanalis.png'
+import { FaFaucet } from 'react-icons/fa'
 
 function Agua() {
   return (
     <div>
-      <div id='top'>
-        <section className="card bgMyA my-1 py-4 text-center">
+      <div id='Agua'>
+        <section className="card bgAgua my-1 py-4 text-center">
           <div className="card-body">
             <h2 className="m-0"> Muestreos y Analisis de Agua </h2>
           </div>
@@ -16,7 +17,7 @@ function Agua() {
       </div>
 
       <section>
-        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
+        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100 justify">
             <div className="col-lg-7"><img className="img-fluid rounded mb-4 mb-lg-0" src={fotoMyA} alt="..." /></div>
             <div className="col-lg-5">
                 <h6>Los servicios que se emplean para estas normas son principalmente los de monitoreo y análisis de aguas residuales. Estos servicios se encargan de realizar mediciones y análisis físico-químicos y bacteriológicos del agua residual, a fin de determinar su composición y características, y verificar que cumpla con los límites establecidos en cada norma. </h6>
@@ -44,11 +45,11 @@ function Agua() {
           </div>
 
           <div className=' col-lg-112 px-5'>
-            <h5><strong> NOM-001-SEMARNAT-1996.- </strong>Descargas de aguas residuales en aguas y bienes nacionales.</h5>
-            <h5><strong> NOM-002-SEMARNAT-1996.- </strong>Descargas de aguas  residuales a los sistemas de alcantarillado urbano o  municipal. </h5>
-            <h5><strong> NOM-003-SEMARNAT-1997.- </strong>Aguas residuales tratadas que se reúsen en servicios al público. </h5>
-            <h5><strong> NADF-015-AGUA-2009.- </strong>Descargas de aguas residuales al  sistema de drenaje y alcantarillado del Distrito Federal,  provenientes de las fuentes fijas. </h5>
-            <h5><strong> Sombra de Arteaga. </strong></h5>
+            <h5><span> <FaFaucet/> </span><strong> NOM-001-SEMARNAT-1996.- </strong>Descargas de aguas residuales en aguas y bienes nacionales.</h5>
+            <h5><span> <FaFaucet/> </span><strong> NOM-002-SEMARNAT-1996.- </strong>Descargas de aguas  residuales a los sistemas de alcantarillado urbano o  municipal. </h5>
+            <h5><span> <FaFaucet/> </span><strong> NOM-003-SEMARNAT-1997.- </strong>Aguas residuales tratadas que se reúsen en servicios al público. </h5>
+            <h5><span> <FaFaucet/> </span><strong> NADF-015-AGUA-2009.- </strong>Descargas de aguas residuales al  sistema de drenaje y alcantarillado del Distrito Federal,  provenientes de las fuentes fijas. </h5>
+            <h5><span> <FaFaucet/> </span><strong> Sombra de Arteaga. </strong></h5>
           </div>
 
         </div>

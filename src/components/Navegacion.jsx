@@ -14,7 +14,7 @@ function Navegacion() {
       <Navbar className='bgnav' expand="lg">
         <Container>
         <div className="d-flex justify-content-between w-100 navl">
-          <Navbar.Brand as={Link} to='/' className='Logo d-flex'> <img  src={Logo} alt="Logo" /> <p className=' fs-6 mt-3 mx-2 d-none d-md-block'> Laboratorio Analítico Ambiental, S.A. de C.V. </p> </Navbar.Brand>
+          <Navbar.Brand as={Link} to='/' className='Logo d-flex'> <img  src={Logo} alt="Logo" /> <p className=' fs-6 mt-4 mx-2 d-none d-md-block'> Laboratorio Analítico Ambiental, S.A. de C.V. </p> </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>
           <Navbar.Collapse id="basic-navbar-nav">

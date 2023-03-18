@@ -8,6 +8,14 @@ function AguaPotable() {
   return (
     <div>
 
+      <div id='Agua'>
+        <section className="card bgAgua my-1 py-4 text-center">
+          <div className="card-body">
+            <h2 className="m-0"> Muestreos y Analisis de Agua Potable </h2>
+          </div>
+        </section>
+      </div>
+
       <section>
         <div className="row gx-4 px-5 gx-lg-8 align-items-center my-5 w-100">
             
