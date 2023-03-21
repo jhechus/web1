@@ -93,6 +93,17 @@ Inicio
   margin-bottom: 20px;
 }
 
+.Lassa a{
+  background-color: #c7b470;
+  margin-bottom: 20px;
+}
+
+.Lassa a:hover{
+  background-color: #8064a2;
+  color: #c7b470;
+  transition: .4s;
+}
+
 .lassa button{
   background-color: #c7b470;
   margin-bottom: 10px;
@@ -648,7 +659,12 @@ Footer
 }
 
 .vane{
-  color: #777777
+  color: #777777;
+  cursor: pointer;
+}
+
+.vanee{
+  color: #777777;
 }
 
 .yuli{
@@ -657,6 +673,18 @@ Footer
 
 .table-row td {
   border-bottom: 1px solid black;
+}
+
+.contactanos a{
+  text-decoration: none;
+}
+
+.contactanos a:hover{
+  text-decoration: underline;
+}
+
+.vane:hover{
+  color: blue;
 }
 
 @media (min-width: 1100px){

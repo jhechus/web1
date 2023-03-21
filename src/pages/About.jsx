@@ -28,7 +28,7 @@ function About() {
                         <div className="col-lg-6"><img className="img-fluid rounded mb-5 mb-lg-0" src={vision} alt="..." /></div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder"> Nuestra Visión </h2>
-                            <p className="lead fw-normal text-muted mb-0 justify px-2"><span className='Laa'> Laboratorio Analítico Ambiental, S.A. de C.V. </span> busca convertirse en un proveedor confiable para cada uno de nuestros clientes, cumpliendo con los desafíos que se nos presenten mediante equipos de vanguardia, personal comprometido con las actividades de la organización y capacitado en las normativas que se requieran. Siempre trabajando con honestidad y responsabilidad para cada uno de los interesados.
+                            <p className="lead fw-normal text-muted mb-0 justify px-2"><span className='Laa'> Laboratorio Analítico Ambiental, S.A. de C.V. </span> busca convertirse en un proveedor confiable para cada uno de nuestros clientes, cumpliendo con los desafíos que se nos presenten mediante equipos de vanguardia, personal comprometido con las actividades para su organización y capacitado en las normativas que se requieran. Siempre trabajando con honestidad y responsabilidad para cada uno de los interesados.
                             <br /> <br /> 
                             Formar vínculos de comunicación con su organización para que tengan la confianza de buscar nuestro asesoramiento y contribuir a un beneficio para su empresa. Buscamos la mejora continua en nuestras actividades y nuestro sistema de gestión.</p>
                         </div>
