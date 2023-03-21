@@ -34,7 +34,7 @@ function Alimentos() {
       </div>
     </section>
 
-    <section>
+    <section className=' bg-light py-4 '>
       <div className=' container '>
         <div className=' row'>
           <div className=' col-md-6'> 

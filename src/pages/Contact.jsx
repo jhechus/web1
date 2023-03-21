@@ -10,10 +10,10 @@ import Footer from '../components/Footer';
 
 function contact() {
   return (
-    <div>
+    <div className=' bg-light'>
       <div className="pad_100">
-            <div className="container">
-                <div><h1></h1></div>
+            <div className="container ">
+                
                 <br />
                 <div className="row">
                     <div className="col-md-12 col-xl-6">
@@ -57,10 +57,10 @@ function contact() {
 
                 <br />
                 <div className="text-center">
-                    <a href="https://es-la.facebook.com/" className=' text-decoration-none'><BsFacebook name="logo-facebook" className="social-icon" /> </a>
-                    <a href="#" className=' text-decoration-none'><BsLinkedin name="logo-link" className="social-icon" /> </a>
-                    <a href="https://www.instagram.com/" className=' text-decoration-none'><BsInstagram name="logo-facebook" className="social-icon" /> </a>
-                    <a href="#" className=' text-decoration-none'><FaTiktok name="logo-facebook" className="social-icon" /> </a>
+                    <a href="https://es-la.facebook.com/" className=' text-decoration-none'><BsFacebook name="logo-facebook" className="social-icon face" /> </a>
+                    <a href="#" className=' text-decoration-none'><BsLinkedin name="logo-link" className="social-icon linkedin" /> </a>
+                    <a href="https://www.instagram.com/" className=' text-decoration-none'><BsInstagram name="logo-facebook" className="social-icon instagram" /> </a>
+                    <a href="#" className=' text-decoration-none'><FaTiktok name="logo-facebook" className="social-icon ticktock" /> </a>
                 </div>
             </div>
         </div>

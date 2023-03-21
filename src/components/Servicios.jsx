@@ -11,7 +11,7 @@ import Logo from '../images/logoo.png'
 
 function Servicios() {
   return (
-    <div>
+    <div className=' bgservices '>
        <section>
             <div className=' container'>
                 <div className=' row'>

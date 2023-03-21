@@ -57,6 +57,24 @@ Inicio
 
 .bginicio{
   background-color: #cbe7f1;
+  position: relative;
+  background-image: url('/src/images/lab.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contenido{
+  height: auto;
+  width: 100%;
+  background-color: rgba(180, 180, 180, 0.7);
+}
+
+
+
+.bginicio p{
+  color: #1b1b1bf5;
+  font-weight: 600;
 }
 
 .lassa h1{
@@ -66,8 +84,8 @@ Inicio
 }
 
 .lassa .nameL{
-  color: #8064a2;
-  font-weight: 500;
+  color: #66379e;
+  font-weight: 600;
 }
 
 .lassa a{
@@ -108,13 +126,6 @@ Inicio
 .normas .check p{
   padding-left: 10px;
   margin-top: -4px;
-}
-
-.servicios img{
-  margin: 0 50px;
-  height: 180px;
-  width: 180px;
-  object-fit: cover;
 }
 
 .ourservice h2{
@@ -160,18 +171,16 @@ Muestreo y analisis
   height: 180px;
 }
 
+
 .cardsA {
   padding: 10px 10px;
   gap: 5px ;
 }
 
-.cardsA .cartaA {
-  
-}
 
 .cardsA .btncolor{
   color: black;
-  background-color: #f9f7d3;
+  background-color: #c7b470;
 }
 
 .cardsA .btncolor:hover{
@@ -282,7 +291,7 @@ Servicio medico
 
 .encabezado h2{
   font-weight: 700;
-  color: #8064a2;
+  color: rgb(192, 111, 111);
 }
 
 .carta{
@@ -302,11 +311,19 @@ Servicio medico
 
 .covid p{
   margin-top: -15px;
+  font-size: 30px;
 }
 
 .doctor img{
   width: 700px;
   object-fit: cover;
+}
+
+@media (max-width: 550px){
+  .covid p{
+    font-size: 21px;
+    font-weight: 500;
+  }
 }
 
 
@@ -493,10 +510,33 @@ button:hover {
   color: #777;
   margin: 5px;
 }
-.follow-us-container .social-icon .social-icon:hover {
+.follow-us-container .social-icon:hover {
   text-decoration: none;
   color: #060a01;
   border-color: #434343;
+  transition: .5s;
+}
+
+.follow-us-container .face:hover{
+  color: blue;
+  transition: .7s;
+}
+
+.follow-us-container .linkedin:hover{
+  color: rgb(21, 126, 211);
+  transition: .7s;
+}
+
+.follow-us-container .instagram:hover{
+  color: white;
+  background-color: rgb(224, 62, 224);
+  transition: .7s;
+}
+
+.follow-us-container .ticktock:hover{
+  color: white;
+  background-color: black;
+  transition: .7s;
 }
 
 .googlemap{
@@ -622,5 +662,46 @@ Footer
 @media (min-width: 1100px){
   .contactanos ul{
     padding-left: 120px;
+  }
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Servicios
+
+*/
+
+.servicios img{
+  position: relative;
+  margin: 0 50px;
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.bgservices{
+  background-color: #c4d2e7;
+}
+
+.servicios img:hover{
+  height: 210px;
+  width: 210px;
+  transition: .5s;
+}
+
+@media (min-width: 550px) and (max-width:1100px) {
+  .servicios img{
+    margin: 0 50px;
+    height: 140px;
+    width: 140px;
+  }
+
+  .servicios img:hover{
+    margin: 0 50px;
+    height: 160px;
+    width: 160px;
   }
 }

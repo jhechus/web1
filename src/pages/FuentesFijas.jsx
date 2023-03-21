@@ -20,12 +20,13 @@ function FuentesFijas() {
         </section>
       </div>
 
-      <section className="images d-none d-xl-block">
-        <img className="humo" src={humo} alt="" />
-        <img className="humo2" src={humo2} alt="" />
-        <img className="humo3" src={humo3} alt="" />
-        <img className="humo4" src={humo4} alt="" />
-      </section>
+      
+      {/* <section className="images d-none d-xl-block"> */}
+      {/*   <img className="humo" src={humo} alt="" /> */} 
+      {/*   <img className="humo2" src={humo2} alt="" /> */}
+      {/*   <img className="humo3" src={humo3} alt="" /> */}
+      {/*   <img className="humo4" src={humo4} alt="" /> */} 
+      {/* </section> */}
 
         <section>
           <div className=' container'>

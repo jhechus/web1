@@ -13,13 +13,13 @@ import Servicios from './Servicios'
 function Inicio2() {
   return (
     <div>
-      <header className="bginicio py-5">
-            <div className="container px-5">
+      <header className="bginicio py-0">
+            <div className=" px-5 contenido py-5">
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-6">
                         <div className="lassa text-center my-1 logoi">
                             <img src={Logo} alt="Lassa" />
-                            <p className="lead text-black fw-normal mb-4 justify"> <span className='nameL'> <strong>Laboratorio Analítico Ambiental, S.A de C.V. </strong> </span> ofrece soluciones integrales tanto a grandes industrias como a pequeños negocios en materia de: medio ambiente, protección civil, seguridad y salud en el trabajo; cumpliendo con la normatividad vigente y estándares internacionales. </p>
+                            <p className="lead fw-normal mb-4 justify"> <span className='nameL'> <strong>Laboratorio Analítico Ambiental, S.A de C.V. </strong> </span> <strong> ofrece soluciones integrales tanto a grandes industrias como a pequeños negocios en materia de: medio ambiente, protección civil, seguridad y salud en el trabajo; cumpliendo con la normatividad vigente y estándares internacionales. </strong></p>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                                 <a className="lassabtn btn btn-lg px-4 me-sm-3" href="tel:+525551614373"> Llámanos <BiPhoneCall /> </a>
 
@@ -31,10 +31,7 @@ function Inicio2() {
             </div>
         </header>
 
-
-        < Servicios />
-
-        <section className="py-5 border-bottom" id="features">
+        <section className="py-5 border-bottom bg-light" id="features">
             <div className="container px-5 my-5">
                 <div className="normas row gx-5">
 
@@ -253,6 +250,7 @@ function Inicio2() {
             </div>
         </section>
 
+        < Servicios />
 
         <Footer />
         

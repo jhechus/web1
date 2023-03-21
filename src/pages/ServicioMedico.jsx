@@ -11,11 +11,13 @@ import respiracion from '../images/respiracion.png'
 import esqueleto from '../images/esqueleto.png'
 import fisico from '../images/fisico.png'
 
+import { MdOutlineMasks } from "react-icons/md";
+
 function ServicioMedico() {
   return (
     <div>
       <div>
-          <div className='encabezado'>
+          <div className='encabezado' id='SM'>
             <section className="card my-1 py-4 text-center bdSM">
               <div className="card-body">
                 <h2 className=" m-0"> Servicio Medico </h2>
@@ -45,8 +47,8 @@ function ServicioMedico() {
         </section>
 
 
-        <section>
-          <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
+        <section className='bg-light'>
+          <div className="row gx-4 px-5 gx-lg-5 align-items-center py-5 w-100 ">
               <div className="col-lg-6">
 
                   <div className="card border-primary mb-3 carta">
@@ -112,17 +114,15 @@ function ServicioMedico() {
 
                   <h1 className="font-weight-light text-center text-info"> Pruebas rápidas certificadas | COVID-19 </h1>
 
-                  <div className='d-flex pt-5 covid'>
-                    <ion-icon name="arrow-forward-outline"></ion-icon>
-                    <p className='px-2 fs-3'> Prueba rápida nasofaríngea de detección de antígenos SARS-CoV-2. </p>        
+                  <div className='pt-5 covid'> 
+                    <p className=''> <span> < MdOutlineMasks /> </span> Prueba rápida nasofaríngea de detección de antígenos SARS-CoV-2. </p>        
                   </div>
-
+                    <br />
                   <div className='d-flex covid'>
-                    <ion-icon name="arrow-forward-outline"></ion-icon>
-                    <p className='px-2 fs-3'> Prueba rápida serológica de detección de anticuerpos SARS-CoV-2. </p>        
+                    <p className=''> <span> < MdOutlineMasks /> </span> Prueba rápida serológica de detección de anticuerpos SARS-CoV-2. </p>        
                   </div>
 
-                    <br /><br />
+                    <br />
                   <div className=' text-center'> 
                     <h3> Resultados en <span className='text-primary'><strong> 15 a 30 minutos. </strong> </span> </h3>
                     <h3> Aprobada por <span className='text-primary'>COFEPRIS.</span> </h3>

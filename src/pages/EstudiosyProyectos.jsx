@@ -50,7 +50,7 @@ function EstudiosyProyectos() {
         </div>
       </section>
 
-      <section>
+      <section className=' bg-light py-3'>
         <div className=" container proyectos">
           <div className=" row">
             <div className="col-xl-6 justify-content-center">

@@ -9,12 +9,14 @@ import { TbGauge } from "react-icons/tb";
 function Recipiente() {
   return (
     <div>
-      <section>
-        <div className="row gx-4 px-5 gx-lg-5 align-items-center my-5 w-100">
+      <section className=' bg-light'>
+        <div className="row gx-4 px-5 gx-lg-5 align-items-center py-4 w-100">
             <div className="col-lg-6"><img className="img-fluid rounded mb-4 mb-lg-0" src={presion} alt="..." /></div>
 
             <div className="col-lg-6">
               <p className=' fs-6 justify'>
+                
+                <br /> <br />
 
               En <span className='Laa'> Laboratorio Analitico Ambiental, S.A DE C.V. </span> contamos con la experiencia para asistir sus requerimientos de seguridad para el cumplimiento normativo en cualquier fase en el ciclo de vida de su equipo, desde el diseño hasta las inspecciones en servicio y mantenimiento. 
               <br /> <br />

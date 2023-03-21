@@ -99,7 +99,7 @@ function SeguridadySalud() {
 
 
 
-    <section className='securitynorm'>
+    <section className='securitynorm bg-light'>
         <div className=' container'>
             <div className=' row'>
                 <div className=' col-xl-12 py-5'>

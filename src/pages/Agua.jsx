@@ -38,10 +38,10 @@ function Agua() {
       </section>
 
 
-      <section>
+      <section className='bg-light py-3'>
         <div className=' container'>
           <div className=' col-lg-12'>
-            <h3 className=' text-center py-5'> Normas para el Análisis del agua </h3>
+            <h3 className=' text-center py-3'> Normas para el Análisis del agua </h3>
           </div>
 
           <div className=' col-lg-112 px-5'>
