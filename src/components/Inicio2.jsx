@@ -122,7 +122,7 @@ function Inicio2() {
                         </div>
                         
                         <div className='Lassa'>
-                            <Link className="lassabtn btn btn-lg px-4 me-sm-3" to={'/Seguridad_Salud'}> Saber mas... < MdOutlineKeyboardDoubleArrowRight /> </Link>
+                            <Link className="lassabtn btn btn-lg px-4 me-sm-3" to={'/Seguridad_Salud'}> Saber más... < MdOutlineKeyboardDoubleArrowRight /> </Link>
                         </div>
                         
                     </div>
@@ -219,7 +219,7 @@ function Inicio2() {
                         <p> Servicios preventivos de seguridad y salud en el trabajo. </p>
 
                         <div className='Lassa'>
-                            <Link className="lassabtn btn btn-lg px-4 me-sm-3" to={'/About'}> Saber mas... < MdOutlineKeyboardDoubleArrowRight /> </Link>
+                            <Link className="lassabtn btn btn-lg px-4 me-sm-3" to={'/About'}> Saber más... < MdOutlineKeyboardDoubleArrowRight /> </Link>
                         </div>
                         
                     </div>
